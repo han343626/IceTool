@@ -1,4 +1,4 @@
-# IceTool 
+# IceTool 实用控件再次封装,极易调用
 lib
 
 # 自定义控件
