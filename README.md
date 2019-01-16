@@ -8,10 +8,10 @@ lib
 ![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/条形码二维码扫描.gif)
 
 # 百度地图
-![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/自定义控件.gif)
+![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/百度地图.gif)
 
 # listview分页
-![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/自定义控件.gif)
+![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/listview分页.gif)
 
 # 自定义提示
 ![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/自定义提示.gif)
