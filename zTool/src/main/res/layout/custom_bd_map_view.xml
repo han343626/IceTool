@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.baidu.mapapi.map.MapView>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_operate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="@dimen/custom_mapview_operate"
+            android:layout_height="@dimen/custom_mapview_operate"
+            android:background="@drawable/css_bg_map_location"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_map_type"
+                android:gravity="center"
+                android:textSize="@dimen/font_12"
+                android:layout_width="@dimen/custom_mapview_image_size"
+                android:layout_height="@dimen/custom_mapview_image_size"
+                android:text="矢量"
+                android:textStyle="bold"
+                android:textColor="#707070"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="@dimen/custom_mapview_operate"
+            android:layout_height="@dimen/custom_mapview_operate"
+            android:background="@drawable/css_bg_map_location"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_zoom_in"
+                android:layout_width="@dimen/custom_mapview_image_size"
+                android:layout_height="@dimen/custom_mapview_image_size"
+                android:src="@drawable/icon_map_zoom_in" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="@dimen/custom_mapview_operate"
+            android:layout_height="@dimen/custom_mapview_operate"
+            android:background="@drawable/css_bg_map_location"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_zoom_out"
+                android:layout_width="@dimen/custom_mapview_image_size"
+                android:layout_height="@dimen/custom_mapview_image_size"
+                android:src="@drawable/icon_map_zoom_out" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="@dimen/custom_mapview_operate"
+            android:layout_height="@dimen/custom_mapview_operate"
+            android:background="@drawable/css_bg_map_location"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/img_location"
+                android:layout_width="@dimen/custom_mapview_image_size"
+                android:layout_height="@dimen/custom_mapview_image_size"
+                android:src="@drawable/icon_map_location" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

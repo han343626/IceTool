@@ -1,0 +1,19 @@
+menu:
+  - name: 自定义控件
+    description: 使用方便,无需编写XML资源文件,无限复用
+    activity: com.ice.icetool.item.ControlActivity
+  - name: 二维码/条形码扫描
+    description: 相机/相册二维码及条形码识别,支持开关灯,放大缩小
+    activity: com.zlsk.zTool.customControls.camera.scanner.CodeScannerActivity
+  - name: 百度地图
+    description: 百度地图再次封装,支持定位图标按方向旋转,使用极简
+    activity: com.ice.icetool.item.BdActivity
+  - name: listView分页
+    description: 上拉刷新,下拉加载 Item 侧滑出现自定义按钮(侧滑删除,已读)
+    activity: com.ice.icetool.item.RefreshListActivity
+  - name: 提示信息
+    description: 自定义toast,自定义进度提示,自定义确认弹窗
+    activity: com.ice.icetool.item.NoteActivity
+  - name: 多Tab切换
+    description: 个数自定义Tab切换,模仿购物APP + - 货物
+    activity: com.ice.icetool.item.SwitchAndShop

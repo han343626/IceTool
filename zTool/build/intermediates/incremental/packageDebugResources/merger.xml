@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet config="main$Generated" generated="true"><source path="E:\IceWang\demo\IceTool\zTool\src\main\res"><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\ic_launcher_background.xml" preprocessing="true" qualifiers=""><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-xxxhdpi\ic_launcher_background.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-mdpi\ic_launcher_background.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-ldpi\ic_launcher_background.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-xxhdpi\ic_launcher_background.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-hdpi\ic_launcher_background.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-xhdpi\ic_launcher_background.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-anydpi-v21\ic_launcher_background.xml" qualifiers="anydpi-v21" type="drawable"/></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\ic_launcher_foreground.xml" preprocessing="true" qualifiers=""><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-xxxhdpi\ic_launcher_foreground.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-mdpi\ic_launcher_foreground.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-ldpi\ic_launcher_foreground.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-xxhdpi\ic_launcher_foreground.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-hdpi\ic_launcher_foreground.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-xhdpi\ic_launcher_foreground.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="E:\IceWang\demo\IceTool\zTool\build\generated\res\pngs\debug\drawable-anydpi-v21\ic_launcher_foreground.xml" qualifiers="anydpi-v21" type="drawable"/></file></source><source path="E:\IceWang\demo\IceTool\zTool\build\generated\res\rs\debug"/><source path="E:\IceWang\demo\IceTool\zTool\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\IceWang\demo\IceTool\zTool\src\main\res"><file name="anim_marker" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_marker.xml" qualifiers="" type="anim"/><file name="anim_out_none" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_out_none.xml" qualifiers="" type="anim"/><file name="anim_right_in" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_right_in.xml" qualifiers="" type="anim"/><file name="anim_right_out" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_right_out.xml" qualifiers="" type="anim"/><file name="anim_rotate_loading" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_rotate_loading.xml" qualifiers="" type="anim"/><file name="anim_scale_activity_dmiss" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_scale_activity_dmiss.xml" qualifiers="" type="anim"/><file name="anim_scale_activity_show" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_scale_activity_show.xml" qualifiers="" type="anim"/><file name="anim_z_text" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\anim_z_text.xml" qualifiers="" type="anim"/><file name="dialog_in" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\dialog_in.xml" qualifiers="" type="anim"/><file name="dialog_out" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\dialog_out.xml" qualifiers="" type="anim"/><file name="hold_on" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\hold_on.xml" qualifiers="" type="anim"/><file name="in_from_left" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\in_from_left.xml" qualifiers="" type="anim"/><file name="in_from_right" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\in_from_right.xml" qualifiers="" type="anim"/><file name="out_to_left" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\out_to_left.xml" qualifiers="" type="anim"/><file name="out_to_right" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\out_to_right.xml" qualifiers="" type="anim"/><file name="pull_arrow_down" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\pull_arrow_down.xml" qualifiers="" type="anim"/><file name="pull_arrow_up" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\pull_arrow_up.xml" qualifiers="" type="anim"/><file name="push_up_in" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\push_up_in.xml" qualifiers="" type="anim"/><file name="push_up_out" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\push_up_out.xml" qualifiers="" type="anim"/><file name="translate_anim" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\translate_anim.xml" qualifiers="" type="anim"/><file name="update_loading_progressbar_anim" path="E:\IceWang\demo\IceTool\zTool\src\main\res\anim\update_loading_progressbar_anim.xml" qualifiers="" type="anim"/><file name="addphoto" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\addphoto.png" qualifiers="" type="drawable"/><file name="addvideo" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\addvideo.png" qualifiers="" type="drawable"/><file name="bg_action_sheet" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_action_sheet.xml" qualifiers="" type="drawable"/><file name="bg_gradient_login" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_gradient_login.xml" qualifiers="" type="drawable"/><file name="bg_gradient_title" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_gradient_title.xml" qualifiers="" type="drawable"/><file name="bg_sheet_left_button_false" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_sheet_left_button_false.xml" qualifiers="" type="drawable"/><file name="bg_sheet_left_button_true" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_sheet_left_button_true.xml" qualifiers="" type="drawable"/><file name="bg_sheet_middle_button_false" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_sheet_middle_button_false.xml" qualifiers="" type="drawable"/><file name="bg_sheet_middle_button_true" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_sheet_middle_button_true.xml" qualifiers="" type="drawable"/><file name="bg_sheet_right_button_false" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_sheet_right_button_false.xml" qualifiers="" type="drawable"/><file name="bg_sheet_right_button_true" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\bg_sheet_right_button_true.xml" qualifiers="" type="drawable"/><file name="btn_pause_video" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\btn_pause_video.png" qualifiers="" type="drawable"/><file name="btn_play_video" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\btn_play_video.png" qualifiers="" type="drawable"/><file name="btn_switch_login" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\btn_switch_login.xml" qualifiers="" type="drawable"/><file name="btn_switch_page" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\btn_switch_page.xml" qualifiers="" type="drawable"/><file name="css_bg_code_scanner" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_code_scanner.xml" qualifiers="" type="drawable"/><file name="css_bg_login" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_login.xml" qualifiers="" type="drawable"/><file name="css_bg_login_press" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_login_press.xml" qualifiers="" type="drawable"/><file name="css_bg_map_location" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_map_location.xml" qualifiers="" type="drawable"/><file name="css_bg_round" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_round.xml" qualifiers="" type="drawable"/><file name="css_bg_shape_rect_down" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_shape_rect_down.xml" qualifiers="" type="drawable"/><file name="css_bg_shape_rect_up" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_shape_rect_up.xml" qualifiers="" type="drawable"/><file name="css_bg_toast" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_toast.xml" qualifiers="" type="drawable"/><file name="css_bg_trans_60" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_trans_60.xml" qualifiers="" type="drawable"/><file name="css_bg_trans_80" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_trans_80.xml" qualifiers="" type="drawable"/><file name="css_bg_z_progress_bar" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_bg_z_progress_bar.xml" qualifiers="" type="drawable"/><file name="css_button_col_theme" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_button_col_theme.xml" qualifiers="" type="drawable"/><file name="css_button_nobgd" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_button_nobgd.xml" qualifiers="" type="drawable"/><file name="css_dialog_background" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_dialog_background.xml" qualifiers="" type="drawable"/><file name="css_dialog_selector_left" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_dialog_selector_left.xml" qualifiers="" type="drawable"/><file name="css_dialog_selector_right" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_dialog_selector_right.xml" qualifiers="" type="drawable"/><file name="css_icon_left_arrow" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_icon_left_arrow.xml" qualifiers="" type="drawable"/><file name="css_relatly_line" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_relatly_line.xml" qualifiers="" type="drawable"/><file name="css_stroke_dialog_down_left" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_stroke_dialog_down_left.xml" qualifiers="" type="drawable"/><file name="css_stroke_dialog_down_right" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\css_stroke_dialog_down_right.xml" qualifiers="" type="drawable"/><file name="current_loc" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\current_loc.png" qualifiers="" type="drawable"/><file name="current_location" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\current_location.png" qualifiers="" type="drawable"/><file name="default_input_edit_new" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\default_input_edit_new.xml" qualifiers="" type="drawable"/><file name="default_ptr_rotate" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\default_ptr_rotate.png" qualifiers="" type="drawable"/><file name="icon_account" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_account.png" qualifiers="" type="drawable"/><file name="icon_addpic_unfocused" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_addpic_unfocused.png" qualifiers="" type="drawable"/><file name="icon_back" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_back.png" qualifiers="" type="drawable"/><file name="icon_bg_flicker" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_bg_flicker.png" qualifiers="" type="drawable"/><file name="icon_data_select" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_data_select.png" qualifiers="" type="drawable"/><file name="icon_dialog_loading" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_dialog_loading.png" qualifiers="" type="drawable"/><file name="icon_drawable_point" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_drawable_point.png" qualifiers="" type="drawable"/><file name="icon_error_loading" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_error_loading.png" qualifiers="" type="drawable"/><file name="icon_evaluation" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_evaluation.png" qualifiers="" type="drawable"/><file name="icon_left_arrow" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_left_arrow.png" qualifiers="" type="drawable"/><file name="icon_left_arrow_press" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_left_arrow_press.png" qualifiers="" type="drawable"/><file name="icon_loading" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_loading.png" qualifiers="" type="drawable"/><file name="icon_local_conflicts_pressed" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_local_conflicts_pressed.png" qualifiers="" type="drawable"/><file name="icon_locate" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_locate.png" qualifiers="" type="drawable"/><file name="icon_map_location" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_map_location.png" qualifiers="" type="drawable"/><file name="icon_map_zoom_in" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_map_zoom_in.png" qualifiers="" type="drawable"/><file name="icon_map_zoom_out" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_map_zoom_out.png" qualifiers="" type="drawable"/><file name="icon_mark" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_mark.png" qualifiers="" type="drawable"/><file name="icon_more" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_more.png" qualifiers="" type="drawable"/><file name="icon_password" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_password.png" qualifiers="" type="drawable"/><file name="icon_pause" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_pause.png" qualifiers="" type="drawable"/><file name="icon_play" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_play.png" qualifiers="" type="drawable"/><file name="icon_side_bg" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_side_bg.jpg" qualifiers="" type="drawable"/><file name="icon_title" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_title.png" qualifiers="" type="drawable"/><file name="icon_toast" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_toast.png" qualifiers="" type="drawable"/><file name="icon_turn_on" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_turn_on.png" qualifiers="" type="drawable"/><file name="icon_zoom_in" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_zoom_in.png" qualifiers="" type="drawable"/><file name="icon_zoom_out" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\icon_zoom_out.png" qualifiers="" type="drawable"/><file name="ic_file_blue" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\ic_file_blue.png" qualifiers="" type="drawable"/><file name="ic_folder" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\ic_folder.png" qualifiers="" type="drawable"/><file name="ic_folder_blue" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\ic_folder_blue.png" qualifiers="" type="drawable"/><file name="ic_provider" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\ic_provider.png" qualifiers="" type="drawable"/><file name="img_arrow" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\img_arrow.png" qualifiers="" type="drawable"/><file name="list_item_divider" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\list_item_divider.xml" qualifiers="" type="drawable"/><file name="scan_line" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\scan_line.png" qualifiers="" type="drawable"/><file name="selector_bt_bg" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\selector_bt_bg.xml" qualifiers="" type="drawable"/><file name="shape_default_input_normal" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\shape_default_input_normal.xml" qualifiers="" type="drawable"/><file name="shape_default_input_pressed" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\shape_default_input_pressed.xml" qualifiers="" type="drawable"/><file name="shape_rect_blue_normal" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\shape_rect_blue_normal.xml" qualifiers="" type="drawable"/><file name="shape_rect_blue_pressed" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\shape_rect_blue_pressed.xml" qualifiers="" type="drawable"/><file name="shape_textview_background" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\shape_textview_background.xml" qualifiers="" type="drawable"/><file name="toast_frame" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\toast_frame.9.png" qualifiers="" type="drawable"/><file name="xsearch_loading" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\xsearch_loading.png" qualifiers="" type="drawable"/><file name="xsearch_msg_pull_arrow_down" path="E:\IceWang\demo\IceTool\zTool\src\main\res\drawable\xsearch_msg_pull_arrow_down.png" qualifiers="" type="drawable"/><file name="actionsheet" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\actionsheet.xml" qualifiers="" type="layout"/><file name="activity_bar_line_chart" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_bar_line_chart.xml" qualifiers="" type="layout"/><file name="activity_code_sacnner" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_code_sacnner.xml" qualifiers="" type="layout"/><file name="activity_mediafile_chooser" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_mediafile_chooser.xml" qualifiers="" type="layout"/><file name="activity_photo" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_photo.xml" qualifiers="" type="layout"/><file name="activity_single_select" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_single_select.xml" qualifiers="" type="layout"/><file name="activity_ui_image_bucket" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_ui_image_bucket.xml" qualifiers="" type="layout"/><file name="activity_ui_image_grid" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_ui_image_grid.xml" qualifiers="" type="layout"/><file name="activity_video_play" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\activity_video_play.xml" qualifiers="" type="layout"/><file name="custom_bd_map_view" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_bd_map_view.xml" qualifiers="" type="layout"/><file name="custom_chart_view" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_chart_view.xml" qualifiers="" type="layout"/><file name="custom_form_item_db_search" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_db_search.xml" qualifiers="" type="layout"/><file name="custom_form_item_geometry_select" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_geometry_select.xml" qualifiers="" type="layout"/><file name="custom_form_item_image_select" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_image_select.xml" qualifiers="" type="layout"/><file name="custom_form_item_select_date" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_select_date.xml" qualifiers="" type="layout"/><file name="custom_form_item_single_select" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_single_select.xml" qualifiers="" type="layout"/><file name="custom_form_item_spinner" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_spinner.xml" qualifiers="" type="layout"/><file name="custom_form_item_spinner_dropdown" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_spinner_dropdown.xml" qualifiers="" type="layout"/><file name="custom_form_item_spinner_textview" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_spinner_textview.xml" qualifiers="" type="layout"/><file name="custom_form_item_text" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_text.xml" qualifiers="" type="layout"/><file name="custom_form_item_text_long" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_text_long.xml" qualifiers="" type="layout"/><file name="custom_form_item_title" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_title.xml" qualifiers="" type="layout"/><file name="custom_form_item_title_new" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_title_new.xml" qualifiers="" type="layout"/><file name="custom_form_item_video" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_form_item_video.xml" qualifiers="" type="layout"/><file name="custom_grid_item" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_grid_item.xml" qualifiers="" type="layout"/><file name="custom_svg_view" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_svg_view.xml" qualifiers="" type="layout"/><file name="custom_switch_control" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_switch_control.xml" qualifiers="" type="layout"/><file name="custom_toast_view" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\custom_toast_view.xml" qualifiers="" type="layout"/><file name="datetimepicker_layout" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\datetimepicker_layout.xml" qualifiers="" type="layout"/><file name="dialog_confirm" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\dialog_confirm.xml" qualifiers="" type="layout"/><file name="dialog_cshu_material_input" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\dialog_cshu_material_input.xml" qualifiers="" type="layout"/><file name="dialog_z_progress_bar" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\dialog_z_progress_bar.xml" qualifiers="" type="layout"/><file name="drawable_loction" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\drawable_loction.xml" qualifiers="" type="layout"/><file name="file_check" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\file_check.xml" qualifiers="" type="layout"/><file name="fragment_container" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\fragment_container.xml" qualifiers="" type="layout"/><file name="item_image" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_image.xml" qualifiers="" type="layout"/><file name="item_image_bucket" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_image_bucket.xml" qualifiers="" type="layout"/><file name="item_image_grid" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_image_grid.xml" qualifiers="" type="layout"/><file name="item_image_with_text" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_image_with_text.xml" qualifiers="" type="layout"/><file name="item_list_point_result" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_list_point_result.xml" qualifiers="" type="layout"/><file name="item_list_score_content" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_list_score_content.xml" qualifiers="" type="layout"/><file name="item_live_record" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_live_record.xml" qualifiers="" type="layout"/><file name="item_spinner" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_spinner.xml" qualifiers="" type="layout"/><file name="item_splitline_bold" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_splitline_bold.xml" qualifiers="" type="layout"/><file name="item_splitline_h" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\item_splitline_h.xml" qualifiers="" type="layout"/><file name="layout_auto_imageview" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\layout_auto_imageview.xml" qualifiers="" type="layout"/><file name="layout_custom_anim_text" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\layout_custom_anim_text.xml" qualifiers="" type="layout"/><file name="layout_title" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\layout_title.xml" qualifiers="" type="layout"/><file name="layout_title_card_view" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\layout_title_card_view.xml" qualifiers="" type="layout"/><file name="module_loading_progress" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\module_loading_progress.xml" qualifiers="" type="layout"/><file name="pull_refresh_webview" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\pull_refresh_webview.xml" qualifiers="" type="layout"/><file name="pull_to_load_footer" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\pull_to_load_footer.xml" qualifiers="" type="layout"/><file name="pull_to_refresh_header" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\pull_to_refresh_header.xml" qualifiers="" type="layout"/><file name="pull_to_refresh_header2" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\pull_to_refresh_header2.xml" qualifiers="" type="layout"/><file name="sheet_item" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\sheet_item.xml" qualifiers="" type="layout"/><file name="view_dialog_buttons" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\view_dialog_buttons.xml" qualifiers="" type="layout"/><file name="view_galley" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\view_galley.xml" qualifiers="" type="layout"/><file name="view_locate_point" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\view_locate_point.xml" qualifiers="" type="layout"/><file name="view_mark_point" path="E:\IceWang\demo\IceTool\zTool\src\main\res\layout\view_mark_point.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="E:\IceWang\demo\IceTool\zTool\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="beep" path="E:\IceWang\demo\IceTool\zTool\src\main\res\raw\beep.ogg" qualifiers="" type="raw"/><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="RxShapeLoadingView">
+        <attr format="string" name="loadingText"/>
+        <attr format="reference" name="loadingTextAppearance"/>
+    </declare-styleable><declare-styleable name="RxRoundProgress">
+        <attr format="color" name="roundColor"/>
+        <attr format="color" name="roundProgressColor"/>
+        <attr format="dimension" name="roundWidth"/>
+        <attr format="color" name="textColor"/>
+        <attr format="dimension" name="textSize1"/>
+        <attr format="integer" name="max"/>
+        <attr format="boolean" name="textIsDisplayable"/>
+        <attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="AbstractWheelView">
+        <attr format="integer" name="visibleItems"/>
+        <attr format="boolean" name="isAllVisible"/>
+        <attr format="integer" name="itemOffsetPercent"/>
+        <attr format="dimension" name="itemsPadding"/>
+        <attr format="integer" name="selectionDividerDimmedAlpha"/>
+        <attr format="integer" name="selectionDividerActiveAlpha"/>
+        <attr format="reference" name="selectionDivider"/>
+        <attr format="integer" name="itemsDimmedAlpha"/>
+        <attr format="boolean" name="isCyclic"/>
+    </declare-styleable><declare-styleable name="WheelHorizontalView">
+        <attr format="dimension" name="selectionDividerWidth"/>
+    </declare-styleable><declare-styleable name="WheelVerticalView">
+        <attr format="dimension" name="selectionDividerHeight"/>
+    </declare-styleable><attr format="reference" name="abstractWheelViewStyle"/><declare-styleable name="RxAutoImageView">
+        <attr format="reference" name="ImageSrc"/>
+    </declare-styleable><declare-styleable name="RxTitle">
+        <attr format="string" name="title"/>
+        <attr format="color" name="titleColor"/>
+        <attr format="dimension" name="titleSize"/>
+        <attr format="boolean" name="titleVisibility"/>
+
+        <attr format="string" name="leftText"/>
+        <attr format="color" name="leftTextColor"/>
+        <attr format="dimension" name="leftTextSize"/>
+        <attr format="boolean" name="leftTextVisibility"/>
+
+        <attr format="string" name="rightText"/>
+        <attr format="color" name="rightTextColor"/>
+        <attr format="dimension" name="rightTextSize"/>
+        <attr format="boolean" name="rightTextVisibility"/>
+
+        <attr format="reference" name="leftIcon"/>
+        <attr format="boolean" name="leftIconVisibility"/>
+
+        <attr format="reference" name="rightIcon"/>
+        <attr format="boolean" name="rightIconVisibility"/>
+    </declare-styleable><declare-styleable name="RxNetSpeedView">
+        <attr format="color" name="RxTextColor"/>
+        <attr format="dimension" name="RxTextSize"/>
+        <attr format="boolean" name="isMulti"/>
+    </declare-styleable><declare-styleable name="ticker_TickerView">
+        <attr format="reference|integer" name="ticker_animationDuration"/>
+        <attr format="reference|boolean" name="ticker_animateMeasurementChange"/>
+
+        
+        <attr name="android:gravity" ns1:ignore="ResourceName"/>
+        <attr name="android:textAppearance" ns1:ignore="ResourceName"/>
+        <attr name="android:textColor" ns1:ignore="ResourceName"/>
+        <attr name="android:textSize" ns1:ignore="ResourceName"/>
+    </declare-styleable><declare-styleable name="FlikerProgressBar">
+        <attr format="dimension" name="textSize"/>
+        <attr format="color" name="loadingColor"/>
+        <attr format="color" name="stopColor"/>
+        <attr format="color" name="finishColor"/>
+        <attr format="dimension" name="radius"/>
+        <attr format="dimension" name="borderWidth"/>
+    </declare-styleable><declare-styleable name="RoundCornerProgress">
+        <attr format="boolean" name="rcReverse"/>
+        <attr format="float" name="rcProgress"/>
+        <attr format="float" name="rcMax"/>
+        <attr format="float" name="rcSecondaryProgress"/>
+        <attr format="dimension" name="rcBackgroundPadding"/>
+        <attr format="dimension" name="rcRadius"/>
+        <attr format="color" name="rcProgressColor"/>
+        <attr format="color" name="rcSecondaryProgressColor"/>
+        <attr format="color" name="rcBackgroundColor"/>
+    </declare-styleable><declare-styleable name="IconRoundCornerProgress">
+        <attr format="integer" name="rcIconSrc"/>
+        <attr format="dimension" name="rcIconSize"/>
+        <attr format="dimension" name="rcIconWidth"/>
+        <attr format="dimension" name="rcIconHeight"/>
+        <attr format="dimension" name="rcIconPadding"/>
+        <attr format="dimension" name="rcIconPaddingLeft"/>
+        <attr format="dimension" name="rcIconPaddingRight"/>
+        <attr format="dimension" name="rcIconPaddingTop"/>
+        <attr format="dimension" name="rcIconPaddingBottom"/>
+        <attr format="color" name="rcIconBackgroundColor"/>
+    </declare-styleable><declare-styleable name="TextRoundCornerProgress">
+        <attr format="color" name="rcTextProgressColor"/>
+        <attr format="dimension" name="rcTextProgressSize"/>
+        <attr format="dimension" name="rcTextProgressMargin"/>
+        <attr format="string" name="rcTextProgress"/>
+    </declare-styleable><declare-styleable name="ShoppingView">
+        <attr format="color" name="sv_bg_color"/>
+        <attr format="string" name="sv_text"/>
+        <attr format="dimension" name="sv_text_size"/>
+        <attr format="integer" name="sv_duration"/>
+    </declare-styleable><declare-styleable name="lwvWheelView">
+        <attr format="color|reference" name="lwvHighlightColor"/>
+        <attr format="color|reference" name="lwvMarkColor"/>
+        <attr format="color|reference" name="lwvMarkTextColor"/>
+        <attr format="float" name="lwvIntervalFactor"/>
+        <attr format="float" name="lwvMarkRatio"/>
+        <attr format="dimension" name="lwvCursorSize"/>
+        <attr format="dimension" name="lwvMarkTextSize"/>
+        <attr format="dimension" name="lwvCenterMarkTextSize"/>
+        <attr format="string|reference" name="lwvAdditionalCenterMark"/>
+    </declare-styleable><declare-styleable name="RxShineButton">
+        <attr format="color" name="btn_color"/>
+        <attr format="color" name="btn_fill_color"/>
+        <attr format="integer" name="shine_count"/>
+        <attr format="float" name="shine_turn_angle"/>
+        <attr format="float" name="small_shine_offset_angle"/>
+        <attr format="boolean" name="enable_flashing"/>
+        <attr format="boolean" name="allow_random_color"/>
+        <attr format="color" name="small_shine_color"/>
+        <attr format="color" name="big_shine_color"/>
+        <attr format="integer" name="shine_animation_duration"/>
+        <attr format="integer" name="click_animation_duration"/>
+        <attr format="float" name="shine_distance_multiple"/>
+        <attr format="dimension" name="shine_size"/>
+    </declare-styleable><declare-styleable name="RxPorterImageView">
+        <attr format="integer|reference" name="siShape"/>
+    </declare-styleable><declare-styleable name="SeatTableView">
+        <attr format="reference" name="seat_checked"/>
+        <attr format="reference" name="seat_sold"/>
+        <attr format="reference" name="seat_available"/>
+        <attr format="color" name="overview_checked"/>
+        <attr format="color" name="overview_sold"/>
+        <attr format="color" name="txt_color"/>
+    </declare-styleable><declare-styleable name="RxCardStackView">
+        <attr format="dimension" name="stackOverlapGaps"/>
+        <attr format="dimension" name="stackOverlapGapsCollapse"/>
+        <attr format="dimension" name="stackHeaderHeight"/>
+        <attr format="integer" name="stackDuration"/>
+        <attr format="integer" name="stackNumBottomShow"/>
+        <attr name="stackAnimationType">
+            <flag name="allDown" value="0"/>
+            <flag name="upDown" value="1"/>
+            <flag name="upDownStack" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="RxSwipeCaptcha">
+        <attr format="dimension" name="captchaWidth"/>
+        <attr format="dimension" name="captchaHeight"/>
+        <attr format="dimension" name="matchDeviation"/>
+    </declare-styleable><declare-styleable name="RxHeartLayout">
+        <attr format="dimension" name="initX"/>
+        <attr format="dimension" name="initY"/>
+        <attr format="dimension" name="xRand"/>
+        <attr format="dimension" name="animLengthRand"/>
+        <attr format="dimension" name="xPointFactor"/>
+        <attr format="dimension" name="animLength"/>
+        <attr format="dimension" name="heart_width"/>
+        <attr format="dimension" name="heart_height"/>
+        <attr format="integer" name="bezierFactor"/>
+        <attr format="integer" name="anim_duration"/>
+    </declare-styleable><declare-styleable name="WaveSideBarView">
+        <attr format="color|reference" name="sidebarTextColor"/>
+        <attr format="color|reference" name="sidebarBackgroundColor"/>
+        <attr format="color|reference" name="sidebarChooseTextColor"/>
+        <attr format="dimension" name="sidebarTextSize"/>
+        <attr format="dimension" name="sidebarLargeTextSize"/>
+        <attr format="dimension" name="sidebarRadius"/>
+        <attr format="dimension" name="sidebarBallRadius"/>
+    </declare-styleable><declare-styleable name="RxSeekBar">
+        <attr format="float" name="maxProgress"/>
+        <attr format="float" name="minProgress"/>
+        <attr format="float" name="reserve"/>
+        <attr format="integer" name="cells"/>
+        <attr format="boolean" name="hideProgressHint"/>
+        <attr format="boolean" name="isHintHolder"/>
+        <attr format="color" name="lineColorSelected"/>
+        <attr format="color" name="lineColorEdge"/>
+        <attr format="color" name="thumbPrimaryColor"/>
+        <attr format="color" name="thumbSecondaryColor"/>
+        <attr format="reference" name="markTextArray"/>
+        <attr format="reference" name="seekBarResId"/>
+        
+        <attr format="reference" name="progressHintResId"/>
+        <attr format="dimension" name="textPadding"/>
+        <attr format="dimension" name="textSize2"/>
+        <attr format="dimension" name="hintBGHeight"/>
+        <attr format="dimension" name="hintBGWith"/>
+        <attr format="dimension" name="hintBGPadding"/>
+        <attr format="dimension" name="seekBarHeight"/>
+        <attr format="dimension" name="thumbSize"/>
+        <attr format="enum" name="cellMode">
+            <enum name="number" value="0"/>
+            <enum name="other" value="1"/>
+        </attr>
+        <attr format="enum" name="seekBarMode">
+            <enum name="single" value="1"/>
+            <enum name="range" value="2"/>
+        </attr>
+
+    </declare-styleable><attr format="reference" name="SpinKitViewStyle"/><declare-styleable name="SpinKitView">
+        <attr name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0"/>
+            <enum name="DoubleBounce" value="1"/>
+            <enum name="Wave" value="2"/>
+            <enum name="WanderingCubes" value="3"/>
+            <enum name="Pulse" value="4"/>
+            <enum name="ChasingDots" value="5"/>
+            <enum name="ThreeBounce" value="6"/>
+            <enum name="Circle" value="7"/>
+            <enum name="CubeGrid" value="8"/>
+            <enum name="FadingCircle" value="9"/>
+            <enum name="FoldingCube" value="10"/>
+            <enum name="RotatingCircle" value="11"/>
+            <enum name="MultiplePulse" value="12"/>
+            <enum name="PulseRing" value="13"/>
+            <enum name="MultiplePulseRing" value="14"/>
+        </attr>
+        <attr format="color" name="SpinKit_Color"/>
+    </declare-styleable><declare-styleable name="ZScaleImageView">
+        <attr format="reference" name="src"/>
+        <attr format="string" name="assetName"/>
+        <attr format="boolean" name="panEnabled"/>
+        <attr format="boolean" name="zoomEnabled"/>
+        <attr format="boolean" name="quickScaleEnabled"/>
+        <attr format="color" name="tileBackgroundColor"/>
+    </declare-styleable><declare-styleable name="RxCobwebView">
+
+        <attr format="color" name="spiderColor"/>
+        <attr format="color" name="spiderRadiusColor"/>
+        <attr format="color" name="spiderLevelColor"/>
+        <attr format="boolean" name="spiderLevelStroke"/>
+        <attr format="boolean" name="spiderRotate"/>
+        <attr format="float" name="spiderLevelStrokeWidth"/>
+        <attr format="integer" name="spiderMaxLevel"/>
+        <attr format="dimension" name="spiderNameSize"/>
+
+    </declare-styleable><declare-styleable name="ColorPickerPreference">
+        <attr format="boolean" name="alphaSlider"/>
+        <attr format="boolean" name="lightnessSlider"/>
+        <attr format="integer" name="density"/>
+        <attr format="integer" name="initialColor"/>
+        <attr format="enum" name="wheelType">
+            <enum name="FLOWER" value="0"/>
+            <enum name="CIRCLE" value="1"/>
+        </attr>
+        <attr format="reference" name="lightnessSliderView"/>
+        <attr format="reference" name="alphaSliderView"/>
+        <attr format="integer" name="pickerColorEditTextColor"/>
+        <attr format="reference|string" name="pickerTitle"/>
+        <attr format="reference|string" name="pickerButtonOk"/>
+        <attr format="reference|string" name="pickerButtonCancel"/>
+    </declare-styleable><declare-styleable name="RxRotateBar">
+        <attr format="string" name="ratingCenterTitle"/>
+        <attr format="dimension" name="centerTitleSize"/>
+        <attr format="integer" name="ratingMax"/>
+        <attr format="color" name="ratingUnratedColor"/>
+        <attr format="color" name="ratingRatedColor"/>
+        <attr format="color" name="ratingTitleColor"/>
+        <attr format="color" name="ratingOutlineColor"/>
+        <attr format="color" name="ratingDefaultColor"/>
+        <attr format="boolean" name="ratingTitleVisible"/>
+        <attr format="color" name="ratingCenterColor"/>
+    </declare-styleable><declare-styleable name="MultiDirectionSlidingDrawer">
+        <attr format="dimension" name="handle"/>
+        <attr format="dimension" name="content"/>
+        <attr format="boolean" name="allowSingleTap"/>
+        <attr format="boolean" name="animateOnClick"/>
+        <attr format="dimension" name="bottomOffset"/>
+        <attr format="dimension" name="topOffset"/>
+        <attr name="direction">
+            <enum name="rightToLeft" value="0"/>
+            <enum name="bottomToTop" value="1"/>
+            <enum name="leftToRight" value="2"/>
+            <enum name="topToBottom" value="3"/>
+        </attr>
+    </declare-styleable><declare-styleable name="SwipeMenuLayout">
+        <attr format="boolean" name="swipeEnable"/>
+        <attr format="boolean" name="ios"/>
+        <attr format="boolean" name="leftSwipe"/>
+    </declare-styleable></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="title_text">#ffffff</color><color name="title_bg_color">#3F51B5</color><color name="scan_btn_color">#0094ff</color><color name="gray_holo_dark">#ff464646</color><color name="gray_holo_light">#ffd0d0d0</color><color name="theme_level_1">#01609f</color><color name="theme_level_2">#5677fc</color><color name="theme_level_3">#a2caee</color><color name="tab_top_text_1">#aaa</color><color name="tab_top_text_2">#000</color><color name="tab_top2_text_1">#000</color><color name="tab_top2_text_2">#fff</color><color name="top_bar_title_color">#fff</color><color name="font_level_1">#000000</color><color name="font_level_2">#4f4f4f</color><color name="font_level_3">#5b5b5b</color><color name="font_level_4">#999999</color><color name="vido_bottom_background">#7F000000</color><color name="col_app_theme">#01609f</color><color name="col_app_theme_sub">#e72520</color><color name="col_app_label_theme">#00aad9</color><color name="col_app_label_theme_sub">#009ea8</color><color name="color_main_background">#ffffff</color><color name="color_transparent">#00000000</color><color name="white">#ffffff</color><color name="ivory">#fffff0</color><color name="lightyellow">#ffffe0</color><color name="yellow">#ffff00</color><color name="snow">#fffafa</color><color name="floralwhite">#fffaf0</color><color name="lemonchiffon">#fffacd</color><color name="cornsilk">#fff8dc</color><color name="seaShell">#fff5ee</color><color name="lavenderblush">#fff0f5</color><color name="papayawhip">#ffefd5</color><color name="blanchedalmond">#ffebcd</color><color name="mistyrose">#ffe4e1</color><color name="bisque">#ffe4c4</color><color name="moccasin">#ffe4b5</color><color name="navajowhite">#ffdead</color><color name="peachpuff">#ffdab9</color><color name="gold">#ffd700</color><color name="pink">#ffc0cb</color><color name="lightpink">#ffb6c1</color><color name="orange">#ffa500</color><color name="orangetrans">#afffa500</color><color name="lightsalmon">#ffa07a</color><color name="darkorange">#ff8c00</color><color name="coral">#ff7f50</color><color name="hotpink">#ff69b4</color><color name="tomato">#ff6347</color><color name="orangered">#ff4500</color><color name="deeppink">#ff1493</color><color name="fuchsia">#ff00ff</color><color name="magenta">#ff00ff</color><color name="red">#ff0000</color><color name="oldlace">#fdf5e6</color><color name="lightgoldenrodyellow">#fafad2</color><color name="linen">#faf0e6</color><color name="antiquewhite">#faebd7</color><color name="salmon">#fa8072</color><color name="ghostwhite">#f8f8ff</color><color name="mintcream">#f5fffa</color><color name="whitesmoke">#f5f5f5</color><color name="beige">#f5f5dc</color><color name="wheat">#f5deb3</color><color name="sandybrown">#f4a460</color><color name="azure">#f0ffff</color><color name="honeydew">#f0fff0</color><color name="aliceblue">#f0f8ff</color><color name="khaki">#f0e68c</color><color name="lightcoral">#f08080</color><color name="palegoldenrod">#eee8aa</color><color name="violet">#ee82ee</color><color name="darksalmon">#e9967a</color><color name="lavender">#e6e6fa</color><color name="lightcyan">#e0ffff</color><color name="burlywood">#deb887</color><color name="plum">#dda0dd</color><color name="gainsboro">#dcdcdc</color><color name="crimson">#dc143c</color><color name="palevioletred">#db7093</color><color name="goldenrod">#daa520</color><color name="orchid">#da70d6</color><color name="thistle">#d8bfd8</color><color name="lightgray">#d3d3d3</color><color name="lightgrey">#d3d3d3</color><color name="tan">#d2b48c</color><color name="chocolate">#d2691e</color><color name="peru">#cd853f</color><color name="indianred">#cd5c5c</color><color name="mediumvioletred">#c71585</color><color name="silver">#c0c0c0</color><color name="darkkhaki">#bdb76b</color><color name="rosybrown">#bc8f8f</color><color name="mediumorchid">#ba55d3</color><color name="darkgoldenrod">#b8860b</color><color name="firebrick">#b22222</color><color name="powderblue">#b0e0e6</color><color name="lightsteelblue">#b0c4de</color><color name="paleturquoise">#afeeee</color><color name="greenyellow">#adff2f</color><color name="lightblue">#add8e6</color><color name="darkgray">#a9a9a9</color><color name="darkgrey">#a9a9a9</color><color name="brown">#a52a2a</color><color name="sienna">#a0522d</color><color name="darkorchid">#9932cc</color><color name="palegreen">#98fb98</color><color name="darkviolet">#9400d3</color><color name="mediumpurple">#9370db</color><color name="lightgreen">#90ee90</color><color name="darkseagreen">#8fbc8f</color><color name="saddlebrown">#8b4513</color><color name="darkmagenta">#8b008b</color><color name="darkred">#8b0000</color><color name="blueviolet">#8a2be2</color><color name="lightskyblue">#87cefa</color><color name="skyblue">#87ceeb</color><color name="gray">#808080</color><color name="grey">#808080</color><color name="olive">#808000</color><color name="purple">#800080</color><color name="maroon">#800000</color><color name="aquamarine">#7fffd4</color><color name="chartreuse">#7fff00</color><color name="lawngreen">#7cfc00</color><color name="mediumslateblue">#7b68ee</color><color name="lightslategray">#778899</color><color name="lightslategrey">#778899</color><color name="slategray">#708090</color><color name="slategrey">#708090</color><color name="olivedrab">#6b8e23</color><color name="slateblue">#6a5acd</color><color name="dimgray">#696969</color><color name="dimgrey">#696969</color><color name="mediumaquamarine">#66cdaa</color><color name="cornflowerblue">#6495ed</color><color name="cadetblue">#5f9ea0</color><color name="darkolivegreen">#556b2f</color><color name="indigo">#4b0082</color><color name="mediumturquoise">#48d1cc</color><color name="darkslateblue">#483d8b</color><color name="steelblue">#4682b4</color><color name="royalblue">#4169e1</color><color name="turquoise">#40e0d0</color><color name="mediumseagreen">#3cb371</color><color name="limegreen">#32cd32</color><color name="darkslategray">#2f4f4f</color><color name="darkslategrey">#2f4f4f</color><color name="seagreen">#2e8b57</color><color name="forestgreen">#228b22</color><color name="lightseagreen">#20b2aa</color><color name="dodgerblue">#1e90ff</color><color name="midnightblue">#191970</color><color name="aqua">#00ffff</color><color name="cyan">#00ffff</color><color name="springgreen">#00ff7f</color><color name="lime">#00ff00</color><color name="mediumspringgreen">#00fa9a</color><color name="darkturquoise">#00ced1</color><color name="deepskyblue">#00bfff</color><color name="darkcyan">#008b8b</color><color name="teal">#008080</color><color name="green">#008000</color><color name="darkgreen">#006400</color><color name="blue">#0000ff</color><color name="mediumblue">#0000cd</color><color name="darkblue">#00008b</color><color name="navy">#000080</color><color name="black">#000000</color><color name="transparent">#00000000</color><color name="transparent2">#500a0a0a</color><color name="style_red">#ff4c41</color><color name="transparent_fill">#a0ffffff</color><color name="transparent_broad">#800a0a0a</color><color name="ice_divider">#a2caee</color><color name="txt_label">#686868</color><color name="txt_black_normal">#333333</color><color name="txt_hint">#b4b4b4</color><color name="group_bkcolor">#efeff4</color><color name="content_background">#ffffff</color><color name="scanner_bg">#A3000000</color></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\dimens.xml" qualifiers=""><dimen name="fab_margin">16dp</dimen><dimen name="title_font_size_1">20sp</dimen><dimen name="title_font_size_2">18sp</dimen><dimen name="title_font_size_3">16sp</dimen><dimen name="title_font_size_4">14sp</dimen><dimen name="title_font_size_5">12sp</dimen><dimen name="lv_item_font_size_level_1">16sp</dimen><dimen name="lv_item_font_size_level_2">14sp</dimen><dimen name="lv_item_font_size_level_3">12sp</dimen><dimen name="content_font_size_level_1">16sp</dimen><dimen name="content_font_size_level_2">14sp</dimen><dimen name="content_font_size_level_3">12sp</dimen><dimen name="content_font_size_min">10sp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="nav_header_vertical_spacing">8dp</dimen><dimen name="nav_header_height">176dp</dimen><dimen name="edge_distance_level1">5dp</dimen><dimen name="edge_distance_level2">10dp</dimen><dimen name="edge_distance_level3">15dp</dimen><dimen name="title_height">52dp</dimen><dimen name="inco_more_height">30dp</dimen><dimen name="title_text_size">20sp</dimen><dimen name="menu_item_title_size">16sp</dimen><dimen name="item_height">60dp</dimen><dimen name="item_long_text">120dp</dimen><dimen name="edit_item_heigth">45dp</dimen><dimen name="button_height">40dp</dimen><dimen name="edge_distance_level4">20dp</dimen><dimen name="search_text_size">30sp</dimen><dimen name="des_height">30dp</dimen><dimen name="pciture_view_pager_margin">80dp</dimen><dimen name="picture_action_bar_button_margin">0dp</dimen><dimen name="picture_action_bar_height">48dp</dimen><dimen name="picture_reload_text_size">16dp</dimen><dimen name="picture_album_title_text_size">12dp</dimen><dimen name="picture_count_text_size">12dp</dimen><dimen name="picture_album_view_margin">8dp</dimen><dimen name="picture_album_view_margin_bottom">9dp</dimen><dimen name="picture_album_text_margin">6dp</dimen><dimen name="picture_album_column_margin">5dp</dimen><dimen name="picture_album_top_margin">10dp</dimen><dimen name="picture_album_item_title_height">30dp</dimen><dimen name="picture_action_bar_page_index_text_size">18dp</dimen><dimen name="picture_user_guide_margin">8dp</dimen><dimen name="picture_loading_text_top_margin">12dp</dimen><dimen name="picture_pull_to_refresh_loading_text_size">14dp</dimen><dimen name="picture_pull_to_refresh_last_update_time_text_size">10dp</dimen><dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen><dimen name="picture_pull_to_refresh_footer_height">40dp</dimen><dimen name="margin_0">0.0dip</dimen><dimen name="margin_2">2.0dip</dimen><dimen name="margin_4">4.0dip</dimen><dimen name="margin_6">6.0dip</dimen><dimen name="margin_8">8.0dip</dimen><dimen name="margin_10">10.0dip</dimen><dimen name="margin_12">12.0dip</dimen><dimen name="margin_14">14.0dip</dimen><dimen name="margin_16">16.0dip</dimen><dimen name="margin_18">18.0dip</dimen><dimen name="margin_20">20.0dip</dimen><dimen name="margin_22">22.0dip</dimen><dimen name="margin_24">24.0dip</dimen><dimen name="margin_26">26.0dip</dimen><dimen name="margin_28">28.0dip</dimen><dimen name="margin_30">30.0dip</dimen><dimen name="margin_32">32.0dip</dimen><dimen name="margin_34">34.0dip</dimen><dimen name="margin_36">36.0dip</dimen><dimen name="margin_38">38.0dip</dimen><dimen name="margin_40">40.0dip</dimen><dimen name="margin_42">42.0dip</dimen><dimen name="margin_44">44.0dip</dimen><dimen name="margin_45">45.0dip</dimen><dimen name="margin_46">46.0dip</dimen><dimen name="margin_48">48.0dip</dimen><dimen name="margin_50">50.0dip</dimen><dimen name="margin_52">52.0dip</dimen><dimen name="margin_54">54.0dip</dimen><dimen name="margin_56">56.0dip</dimen><dimen name="margin_58">58.0dip</dimen><dimen name="margin_60">60.0dip</dimen><dimen name="margin_62">62.0dip</dimen><dimen name="margin_64">64.0dip</dimen><dimen name="margin_66">66.0dip</dimen><dimen name="margin_68">68.0dip</dimen><dimen name="margin_70">70.0dip</dimen><dimen name="margin_72">72.0dip</dimen><dimen name="margin_74">74.0dip</dimen><dimen name="margin_76">76.0dip</dimen><dimen name="margin_78">78.0dip</dimen><dimen name="margin_80">80.0dip</dimen><dimen name="margin_82">82.0dip</dimen><dimen name="margin_84">84.0dip</dimen><dimen name="margin_86">86.0dip</dimen><dimen name="margin_88">88.0dip</dimen><dimen name="margin_90">90.0dip</dimen><dimen name="margin_92">92.0dip</dimen><dimen name="margin_94">94.0dip</dimen><dimen name="margin_96">96.0dip</dimen><dimen name="margin_98">98.0dip</dimen><dimen name="margin_100">100.0dip</dimen><dimen name="margin_105">105.0dip</dimen><dimen name="margin_110">110.0dip</dimen><dimen name="margin_150">150.0dip</dimen><dimen name="margin_200">200.0dip</dimen><dimen name="margin_210">210.0dip</dimen><dimen name="margin_220">220.0dip</dimen><dimen name="margin_230">230.0dip</dimen><dimen name="margin_240">240.0dip</dimen><dimen name="margin_250">250.0dip</dimen><dimen name="margin_300">300.0dip</dimen><dimen name="margin_350">350.0dip</dimen><dimen name="margin_400">400.0dip</dimen><dimen name="font_10">10.0sp</dimen><dimen name="font_12">12.0sp</dimen><dimen name="font_14">14.0sp</dimen><dimen name="font_16">16.0sp</dimen><dimen name="font_17">17.0sp</dimen><dimen name="font_18">18.0sp</dimen><dimen name="font_20">20.0sp</dimen><dimen name="font_22">22.0sp</dimen><dimen name="font_24">24.0sp</dimen><dimen name="font_26">26.0sp</dimen><dimen name="font_28">28.0sp</dimen><dimen name="font_30">30.0sp</dimen><dimen name="font_32">32.0sp</dimen><dimen name="font_34">34.0sp</dimen><dimen name="font_36">36.0sp</dimen><dimen name="font_38">38.0sp</dimen><dimen name="font_40">40.0sp</dimen><dimen name="font_42">42.0sp</dimen><dimen name="font_44">44.0sp</dimen><dimen name="font_46">46.0sp</dimen><dimen name="font_48">48.0sp</dimen><dimen name="font_60">60.0sp</dimen><dimen name="edtxt_stroke">1.0dip</dimen><dimen name="edtxt_radius">7.0dip</dimen><dimen name="head_size">42.0dip</dimen><dimen name="slidingmenu_offset">80.0dip</dimen><dimen name="shadow_width">3.0dip</dimen><dimen name="linerout_button_height">52.0dip</dimen><dimen name="linerout_button_height2">50.0dip</dimen><dimen name="base_padding">16dp</dimen><dimen name="custom_title_height">80dp</dimen><dimen name="custom_title_content_height">50dp</dimen><dimen name="item_height_seventy">70dp</dimen><dimen name="btn_corner_radius">10dp</dimen><dimen name="custom_mapview_image_size">25dp</dimen><dimen name="custom_mapview_operate">35dp</dimen></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\ids.xml" qualifiers=""><item name="auto_focus" type="id"/><item name="decode" type="id"/><item name="decode_failed" type="id"/><item name="decode_succeeded" type="id"/><item name="encode_failed" type="id"/><item name="encode_succeeded" type="id"/><item name="launch_product_query" type="id"/><item name="quit" type="id"/><item name="restart_preview" type="id"/><item name="return_scan_result" type="id"/><item name="search_book_contents_failed" type="id"/><item name="search_book_contents_succeeded" type="id"/><item name="register_phone_edittext" type="id"/><item name="complete_password" type="id"/><item name="complete_qrpaword" type="id"/><item name="complete_zhuce" type="id"/><item name="zhuce_title" type="id"/><item name="gridview" type="id"/><item name="webview" type="id"/><item name="about_version_code" type="id">false</item><item name="split" type="id">false</item></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">tool</string><string name="stkey_show_media_adapter_tag_key">show_media_adapter_tag_key</string><string name="refresh_list_no_more_data">没有更多的数据了</string><string name="refresh_list_success">刷新完成</string><string name="refresh_list_load_more_success">加载完成</string><string name="stc_tip_network_error">网络连接错误</string><string name="stc_tip_service_fault">请求服务异常</string><string name="stc_tip_no_menu_auth">没有菜单权限</string><string name="stc_tip_username_cannot_be_empty">用户名不能为空</string><string name="stc_tip_pwd_cannot_be_empty">密码不能为空</string><string name="stc_tip_username_or_pwd_error">用户名或密码错误</string><string name="stc_tip_processing_photo">正在处理图片</string><string name="stc_tip_compressing_photo">正在压缩图片</string><string name="stc_tip_compress_photo_fault">压缩图片出错</string><string name="stc_tip_please_take_photos">请拍摄照片</string><string name="stc_tip_getting_data">正在获取数据</string><string name="stc_tip_loading_data">正在加载数据</string><string name="stc_tip_uploading_data">正在上传数据</string><string name="stc_tip_upload_success">上传成功</string><string name="stc_tip_upload_failed">上传失败</string><string name="network_access_error">访问服务器出现错误。可能是因为当前网络不可用，或网络限制导致无法访问服务器。</string><string name="pushmsg_center_no_more_msg">已经到底啦</string><string name="pushmsg_center_pull_up_text">松开加载更多</string><string name="pushmsg_center_pull_down_text">下拉刷新</string><string name="pushmsg_center_pull_release_text">松开获取更多</string><string name="pushmsg_center_pull_down_update_time">最后更新时间 : </string><string name="pushmsg_center_load_more_ongoing_text">正在加载中</string><string name="xsearch_loading">正在加载中…</string><string name="pull_to_refresh_header_hint_normal">@string/pushmsg_center_pull_down_text</string><string name="pull_to_refresh_header_hint_normal2">上拉可以刷新</string><string name="pull_to_refresh_header_hint_ready">释放更多</string><string name="pull_to_refresh_header_hint_loading">@string/pushmsg_center_load_more_ongoing_text</string><string name="pull_to_refresh_header_last_time">@string/pushmsg_center_pull_down_update_time</string><string name="pull_to_refresh_footer_hint_ready">松开载入更多</string><string name="pull_to_refresh_refreshing_label">@string/pull_to_refresh_header_hint_loading</string><string name="pull_to_refresh_no_more_data">@string/pushmsg_center_no_more_msg</string><string name="pull_to_refresh_network_error">网络不给力，请检查网络</string><string name="str_clickinput">点击输入</string><string name="please_select">请选择</string><string name="star_required_mark">*</string><string name="event_report_hint_xy">x,y</string><string name="event_report_hint_address">位置详情</string><string name="event_report_hint_address_loading">正在获取地址详情</string><string name="date_month_str">月</string><string name="date_month_start_str">-01</string><string name="date_month_end_str">-31</string><string name="date_month_prompt">月份</string><string name="date_picker">选择日期</string><string name="time_picker">选择时间</string><string name="date_year_picker">选择年份</string><string name="date_month_picker">选择月份</string></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style><style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/><style name="BottomDialog" parent="@android:style/Theme.Dialog">
+
+        
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style><style name="DialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out</item>
+    </style><style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style><style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="ActionSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style><style name="item_row">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+    </style><style name="item_common_title_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#a2caee</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+    </style><style name="item_common_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/font_level_1</item>
+        <item name="android:textSize">@dimen/title_font_size_3</item>
+    </style><style name="item_text_common">
+        <item name="android:layout_height">52dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="item_edit_des">
+        <item name="android:gravity">left|top</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">#4f4f4f</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="item_edit_common">
+        <item name="android:gravity">center|left</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">#4f4f4f</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="item_button_common">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/css_button_col_theme</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/top_bar_title_color</item>
+    </style><style name="item_edit_common_none">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">#4f4f4f</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="AlertView" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style><style name="style_textView_single_line">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginStart">5dp</item>>
+    </style><style name="style_textView_single_line_title">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="list_item_layout">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+    </style><style name="fileChooserName">
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style><style name="common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="card_view_item_common_style" parent="CardView">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">#ffffff</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style><style name="SpinKitView">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style><style name="SpinKitView.ChasingDots">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style><style name="SpinKitView.Circle">
+        <item name="SpinKit_Style">Circle</item>
+    </style><style name="SpinKitView.CubeGrid">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style><style name="SpinKitView.DoubleBounce">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style><style name="SpinKitView.FadingCircle">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style><style name="SpinKitView.FoldingCube">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style><style name="SpinKitView.Pulse">
+        <item name="SpinKit_Style">Pulse</item>
+    </style><style name="SpinKitView.RotatingPlane">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style><style name="SpinKitView.RotatingCircle">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style><style name="SpinKitView.ThreeBounce">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style><style name="SpinKitView.WanderingCubes">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style><style name="SpinKitView.Wave">
+        <item name="SpinKit_Style">Wave</item>
+    </style><style name="SpinKitView.MultiplePulse">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style><style name="SpinKitView.PulseRing">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style><style name="SpinKitView.MultiplePulseRing">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style><style name="SpinKitView.Large">
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+    </style><style name="SpinKitView.Large.ChasingDots">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style><style name="SpinKitView.Large.Circle">
+        <item name="SpinKit_Style">Circle</item>
+    </style><style name="SpinKitView.Large.CubeGrid">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style><style name="SpinKitView.Large.DoubleBounce">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style><style name="SpinKitView.Large.FadingCircle">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style><style name="SpinKitView.Large.FoldingCube">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style><style name="SpinKitView.Large.Pulse">
+        <item name="SpinKit_Style">Pulse</item>
+    </style><style name="SpinKitView.Large.RotatingPlane">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style><style name="SpinKitView.Large.RotatingCircle">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style><style name="SpinKitView.Large.ThreeBounce">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style><style name="SpinKitView.Large.WanderingCubes">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style><style name="SpinKitView.Large.Wave">
+        <item name="SpinKit_Style">Wave</item>
+    </style><style name="SpinKitView.Large.MultiplePulse">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style><style name="SpinKitView.Large.PulseRing">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style><style name="SpinKitView.Large.MultiplePulseRing">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style><style name="SpinKitView.Small">
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style><style name="SpinKitView.Small.ChasingDots">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style><style name="SpinKitView.Small.Circle">
+        <item name="SpinKit_Style">Circle</item>
+    </style><style name="SpinKitView.Small.CubeGrid">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style><style name="SpinKitView.Small.DoubleBounce">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style><style name="SpinKitView.Small.FadingCircle">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style><style name="SpinKitView.Small.FoldingCube">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style><style name="SpinKitView.Small.Pulse">
+        <item name="SpinKit_Style">Pulse</item>
+    </style><style name="SpinKitView.Small.RotatingPlane">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style><style name="SpinKitView.Small.RotatingCircle">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style><style name="SpinKitView.Small.ThreeBounce">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style><style name="SpinKitView.Small.WanderingCubes">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style><style name="SpinKitView.Small.Wave">
+        <item name="SpinKit_Style">Wave</item>
+    </style><style name="SpinKitView.Small.MultiplePulse">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style><style name="SpinKitView.Small.PulseRing">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style><style name="SpinKitView.Small.MultiplePulseRing">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\switch_button_attrs.xml" qualifiers=""><declare-styleable name="SwitchButton">
+        <attr format="reference|dimension" name="sb_shadow_radius"/>
+        <attr format="reference|dimension" name="sb_shadow_offset"/>
+        <attr format="reference|color" name="sb_shadow_color"/>
+        <attr format="reference|color" name="sb_uncheck_color"/>
+        <attr format="reference|color" name="sb_checked_color"/>
+
+        <attr format="reference|dimension" name="sb_border_width"/>
+        <attr format="reference|color" name="sb_checkline_color"/>
+        <attr format="reference|dimension" name="sb_checkline_width"/>
+        <attr format="reference|color" name="sb_uncheckcircle_color"/>
+        <attr format="reference|dimension" name="sb_uncheckcircle_width"/>
+        <attr format="reference|dimension" name="sb_uncheckcircle_radius"/>
+
+        <attr format="reference|boolean" name="sb_checked"/>
+        <attr format="reference|boolean" name="sb_shadow_effect"/>
+        <attr format="reference|integer" name="sb_effect_duration"/>
+        <attr format="reference|color" name="sb_button_color"/>
+        <attr format="reference|boolean" name="sb_show_indicator"/>
+        <attr format="reference|color" name="sb_background"/>
+        <attr format="reference|boolean" name="sb_enable_effect"/>
+    </declare-styleable></file><file path="E:\IceWang\demo\IceTool\zTool\src\main\res\values\themes.xml" qualifiers=""><style name="ActionSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/ActionSheetAnimation</item>
+    </style></file></source><source path="E:\IceWang\demo\IceTool\zTool\build\generated\res\rs\debug"/><source path="E:\IceWang\demo\IceTool\zTool\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\IceWang\demo\IceTool\zTool\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\IceWang\demo\IceTool\zTool\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SeatTableView"><attr format="reference" name="seat_checked"/><attr format="reference" name="seat_sold"/><attr format="reference" name="seat_available"/><attr format="color" name="overview_checked"/><attr format="color" name="overview_sold"/><attr format="color" name="txt_color"/></declare-styleable><declare-styleable name="WheelHorizontalView"><attr format="dimension" name="selectionDividerWidth"/></declare-styleable><declare-styleable name="ticker_TickerView"><attr format="reference|integer" name="ticker_animationDuration"/><attr format="reference|boolean" name="ticker_animateMeasurementChange"/><attr name="android:gravity" ns1:ignore="ResourceName"/><attr name="android:textAppearance" ns1:ignore="ResourceName"/><attr name="android:textColor" ns1:ignore="ResourceName"/><attr name="android:textSize" ns1:ignore="ResourceName"/></declare-styleable><declare-styleable name="RxCardStackView"><attr format="dimension" name="stackOverlapGaps"/><attr format="dimension" name="stackOverlapGapsCollapse"/><attr format="dimension" name="stackHeaderHeight"/><attr format="integer" name="stackDuration"/><attr format="integer" name="stackNumBottomShow"/><attr name="stackAnimationType">
+            <flag name="allDown" value="0"/>
+            <flag name="upDown" value="1"/>
+            <flag name="upDownStack" value="2"/>
+        </attr></declare-styleable><declare-styleable name="RxTitle"><attr format="string" name="title"/><attr format="color" name="titleColor"/><attr format="dimension" name="titleSize"/><attr format="boolean" name="titleVisibility"/><attr format="string" name="leftText"/><attr format="color" name="leftTextColor"/><attr format="dimension" name="leftTextSize"/><attr format="boolean" name="leftTextVisibility"/><attr format="string" name="rightText"/><attr format="color" name="rightTextColor"/><attr format="dimension" name="rightTextSize"/><attr format="boolean" name="rightTextVisibility"/><attr format="reference" name="leftIcon"/><attr format="boolean" name="leftIconVisibility"/><attr format="reference" name="rightIcon"/><attr format="boolean" name="rightIconVisibility"/></declare-styleable><declare-styleable name="IconRoundCornerProgress"><attr format="integer" name="rcIconSrc"/><attr format="dimension" name="rcIconSize"/><attr format="dimension" name="rcIconWidth"/><attr format="dimension" name="rcIconHeight"/><attr format="dimension" name="rcIconPadding"/><attr format="dimension" name="rcIconPaddingLeft"/><attr format="dimension" name="rcIconPaddingRight"/><attr format="dimension" name="rcIconPaddingTop"/><attr format="dimension" name="rcIconPaddingBottom"/><attr format="color" name="rcIconBackgroundColor"/></declare-styleable><declare-styleable name="RoundCornerProgress"><attr format="boolean" name="rcReverse"/><attr format="float" name="rcProgress"/><attr format="float" name="rcMax"/><attr format="float" name="rcSecondaryProgress"/><attr format="dimension" name="rcBackgroundPadding"/><attr format="dimension" name="rcRadius"/><attr format="color" name="rcProgressColor"/><attr format="color" name="rcSecondaryProgressColor"/><attr format="color" name="rcBackgroundColor"/></declare-styleable><declare-styleable name="ShoppingView"><attr format="color" name="sv_bg_color"/><attr format="string" name="sv_text"/><attr format="dimension" name="sv_text_size"/><attr format="integer" name="sv_duration"/></declare-styleable><declare-styleable name="RxSwipeCaptcha"><attr format="dimension" name="captchaWidth"/><attr format="dimension" name="captchaHeight"/><attr format="dimension" name="matchDeviation"/></declare-styleable><declare-styleable name="SwitchButton"><attr format="reference|dimension" name="sb_shadow_radius"/><attr format="reference|dimension" name="sb_shadow_offset"/><attr format="reference|color" name="sb_shadow_color"/><attr format="reference|color" name="sb_uncheck_color"/><attr format="reference|color" name="sb_checked_color"/><attr format="reference|dimension" name="sb_border_width"/><attr format="reference|color" name="sb_checkline_color"/><attr format="reference|dimension" name="sb_checkline_width"/><attr format="reference|color" name="sb_uncheckcircle_color"/><attr format="reference|dimension" name="sb_uncheckcircle_width"/><attr format="reference|dimension" name="sb_uncheckcircle_radius"/><attr format="reference|boolean" name="sb_checked"/><attr format="reference|boolean" name="sb_shadow_effect"/><attr format="reference|integer" name="sb_effect_duration"/><attr format="reference|color" name="sb_button_color"/><attr format="reference|boolean" name="sb_show_indicator"/><attr format="reference|color" name="sb_background"/><attr format="reference|boolean" name="sb_enable_effect"/></declare-styleable><declare-styleable name="TextRoundCornerProgress"><attr format="color" name="rcTextProgressColor"/><attr format="dimension" name="rcTextProgressSize"/><attr format="dimension" name="rcTextProgressMargin"/><attr format="string" name="rcTextProgress"/></declare-styleable><declare-styleable name="MultiDirectionSlidingDrawer"><attr format="dimension" name="handle"/><attr format="dimension" name="content"/><attr format="boolean" name="allowSingleTap"/><attr format="boolean" name="animateOnClick"/><attr format="dimension" name="bottomOffset"/><attr format="dimension" name="topOffset"/><attr name="direction">
+            <enum name="rightToLeft" value="0"/>
+            <enum name="bottomToTop" value="1"/>
+            <enum name="leftToRight" value="2"/>
+            <enum name="topToBottom" value="3"/>
+        </attr></declare-styleable><declare-styleable name="RxSeekBar"><attr format="float" name="maxProgress"/><attr format="float" name="minProgress"/><attr format="float" name="reserve"/><attr format="integer" name="cells"/><attr format="boolean" name="hideProgressHint"/><attr format="boolean" name="isHintHolder"/><attr format="color" name="lineColorSelected"/><attr format="color" name="lineColorEdge"/><attr format="color" name="thumbPrimaryColor"/><attr format="color" name="thumbSecondaryColor"/><attr format="reference" name="markTextArray"/><attr format="reference" name="seekBarResId"/><attr format="reference" name="progressHintResId"/><attr format="dimension" name="textPadding"/><attr format="dimension" name="textSize2"/><attr format="dimension" name="hintBGHeight"/><attr format="dimension" name="hintBGWith"/><attr format="dimension" name="hintBGPadding"/><attr format="dimension" name="seekBarHeight"/><attr format="dimension" name="thumbSize"/><attr format="enum" name="cellMode">
+            <enum name="number" value="0"/>
+            <enum name="other" value="1"/>
+        </attr><attr format="enum" name="seekBarMode">
+            <enum name="single" value="1"/>
+            <enum name="range" value="2"/>
+        </attr></declare-styleable><declare-styleable name="AbstractWheelView"><attr format="integer" name="visibleItems"/><attr format="boolean" name="isAllVisible"/><attr format="integer" name="itemOffsetPercent"/><attr format="dimension" name="itemsPadding"/><attr format="integer" name="selectionDividerDimmedAlpha"/><attr format="integer" name="selectionDividerActiveAlpha"/><attr format="reference" name="selectionDivider"/><attr format="integer" name="itemsDimmedAlpha"/><attr format="boolean" name="isCyclic"/></declare-styleable><declare-styleable name="RxNetSpeedView"><attr format="color" name="RxTextColor"/><attr format="dimension" name="RxTextSize"/><attr format="boolean" name="isMulti"/></declare-styleable><declare-styleable name="RxRotateBar"><attr format="string" name="ratingCenterTitle"/><attr format="dimension" name="centerTitleSize"/><attr format="integer" name="ratingMax"/><attr format="color" name="ratingUnratedColor"/><attr format="color" name="ratingRatedColor"/><attr format="color" name="ratingTitleColor"/><attr format="color" name="ratingOutlineColor"/><attr format="color" name="ratingDefaultColor"/><attr format="boolean" name="ratingTitleVisible"/><attr format="color" name="ratingCenterColor"/></declare-styleable><declare-styleable name="WaveSideBarView"><attr format="color|reference" name="sidebarTextColor"/><attr format="color|reference" name="sidebarBackgroundColor"/><attr format="color|reference" name="sidebarChooseTextColor"/><attr format="dimension" name="sidebarTextSize"/><attr format="dimension" name="sidebarLargeTextSize"/><attr format="dimension" name="sidebarRadius"/><attr format="dimension" name="sidebarBallRadius"/></declare-styleable><declare-styleable name="RxHeartLayout"><attr format="dimension" name="initX"/><attr format="dimension" name="initY"/><attr format="dimension" name="xRand"/><attr format="dimension" name="animLengthRand"/><attr format="dimension" name="xPointFactor"/><attr format="dimension" name="animLength"/><attr format="dimension" name="heart_width"/><attr format="dimension" name="heart_height"/><attr format="integer" name="bezierFactor"/><attr format="integer" name="anim_duration"/></declare-styleable><declare-styleable name="SpinKitView"><attr name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0"/>
+            <enum name="DoubleBounce" value="1"/>
+            <enum name="Wave" value="2"/>
+            <enum name="WanderingCubes" value="3"/>
+            <enum name="Pulse" value="4"/>
+            <enum name="ChasingDots" value="5"/>
+            <enum name="ThreeBounce" value="6"/>
+            <enum name="Circle" value="7"/>
+            <enum name="CubeGrid" value="8"/>
+            <enum name="FadingCircle" value="9"/>
+            <enum name="FoldingCube" value="10"/>
+            <enum name="RotatingCircle" value="11"/>
+            <enum name="MultiplePulse" value="12"/>
+            <enum name="PulseRing" value="13"/>
+            <enum name="MultiplePulseRing" value="14"/>
+        </attr><attr format="color" name="SpinKit_Color"/></declare-styleable><declare-styleable name="SwipeMenuLayout"><attr format="boolean" name="swipeEnable"/><attr format="boolean" name="ios"/><attr format="boolean" name="leftSwipe"/></declare-styleable><declare-styleable name="RxShineButton"><attr format="color" name="btn_color"/><attr format="color" name="btn_fill_color"/><attr format="integer" name="shine_count"/><attr format="float" name="shine_turn_angle"/><attr format="float" name="small_shine_offset_angle"/><attr format="boolean" name="enable_flashing"/><attr format="boolean" name="allow_random_color"/><attr format="color" name="small_shine_color"/><attr format="color" name="big_shine_color"/><attr format="integer" name="shine_animation_duration"/><attr format="integer" name="click_animation_duration"/><attr format="float" name="shine_distance_multiple"/><attr format="dimension" name="shine_size"/></declare-styleable><declare-styleable name="RxAutoImageView"><attr format="reference" name="ImageSrc"/></declare-styleable><declare-styleable name="FlikerProgressBar"><attr format="dimension" name="textSize"/><attr format="color" name="loadingColor"/><attr format="color" name="stopColor"/><attr format="color" name="finishColor"/><attr format="dimension" name="radius"/><attr format="dimension" name="borderWidth"/></declare-styleable><declare-styleable name="ZScaleImageView"><attr format="reference" name="src"/><attr format="string" name="assetName"/><attr format="boolean" name="panEnabled"/><attr format="boolean" name="zoomEnabled"/><attr format="boolean" name="quickScaleEnabled"/><attr format="color" name="tileBackgroundColor"/></declare-styleable><declare-styleable name="RxRoundProgress"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize1"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr></declare-styleable><declare-styleable name="RxPorterImageView"><attr format="integer|reference" name="siShape"/></declare-styleable><declare-styleable name="WheelVerticalView"><attr format="dimension" name="selectionDividerHeight"/></declare-styleable><declare-styleable name="lwvWheelView"><attr format="color|reference" name="lwvHighlightColor"/><attr format="color|reference" name="lwvMarkColor"/><attr format="color|reference" name="lwvMarkTextColor"/><attr format="float" name="lwvIntervalFactor"/><attr format="float" name="lwvMarkRatio"/><attr format="dimension" name="lwvCursorSize"/><attr format="dimension" name="lwvMarkTextSize"/><attr format="dimension" name="lwvCenterMarkTextSize"/><attr format="string|reference" name="lwvAdditionalCenterMark"/></declare-styleable><declare-styleable name="RxShapeLoadingView"><attr format="string" name="loadingText"/><attr format="reference" name="loadingTextAppearance"/></declare-styleable><declare-styleable name="RxCobwebView"><attr format="color" name="spiderColor"/><attr format="color" name="spiderRadiusColor"/><attr format="color" name="spiderLevelColor"/><attr format="boolean" name="spiderLevelStroke"/><attr format="boolean" name="spiderRotate"/><attr format="float" name="spiderLevelStrokeWidth"/><attr format="integer" name="spiderMaxLevel"/><attr format="dimension" name="spiderNameSize"/></declare-styleable><declare-styleable name="ColorPickerPreference"><attr format="boolean" name="alphaSlider"/><attr format="boolean" name="lightnessSlider"/><attr format="integer" name="density"/><attr format="integer" name="initialColor"/><attr format="enum" name="wheelType">
+            <enum name="FLOWER" value="0"/>
+            <enum name="CIRCLE" value="1"/>
+        </attr><attr format="reference" name="lightnessSliderView"/><attr format="reference" name="alphaSliderView"/><attr format="integer" name="pickerColorEditTextColor"/><attr format="reference|string" name="pickerTitle"/><attr format="reference|string" name="pickerButtonOk"/><attr format="reference|string" name="pickerButtonCancel"/></declare-styleable></configuration></mergedItems></merger>

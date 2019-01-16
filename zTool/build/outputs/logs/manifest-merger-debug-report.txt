@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:5:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CAMERA
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:9:5-64
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:15:22-78
+application
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:17:5-39:19
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:19:9-21:64
+	android:value
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:21:13-61
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:20:13-52
+service#com.baidu.location.f
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:23:9-26:41
+	android:process
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:26:13-38
+	android:enabled
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:24:13-48
+activity#com.zlsk.zTool.customControls.base.SingleSelectActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:28:9-92
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:28:19-89
+activity#com.zlsk.zTool.customControls.base.SingleSelectInputActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:29:9-97
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:29:19-94
+activity#com.zlsk.zTool.baseActivity.photo.AlbumSelectActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:30:9-90
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:30:19-87
+activity#com.zlsk.zTool.baseActivity.photo.VideoAlbumSelectActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:31:9-95
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:31:19-92
+activity#com.zlsk.zTool.baseActivity.photo.ImageGridActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:32:9-88
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:32:19-85
+activity#com.zlsk.zTool.baseActivity.photo.PlayVideoActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:33:9-88
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:33:19-85
+activity#com.zlsk.zTool.baseActivity.BitmapCacheActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:34:9-84
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:34:19-81
+activity#com.zlsk.zTool.baseActivity.FileChooserActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:35:9-84
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:35:19-81
+activity#com.zlsk.zTool.baseActivity.photo.PhotoFullScreenActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:36:9-94
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:36:19-91
+activity#com.zlsk.zTool.chart.BarAndLineChartActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:37:9-81
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:37:19-78
+activity#com.zlsk.zTool.customControls.camera.scanner.CodeScannerActivity
+ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:38:9-87
+	android:name
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml:38:19-84
+uses-sdk
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+		ADDED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml
+		INJECTED from E:\IceWang\demo\IceTool\zTool\src\main\AndroidManifest.xml

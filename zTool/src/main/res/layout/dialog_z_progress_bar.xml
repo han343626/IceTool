@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/css_bg_z_progress_bar">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.zlsk.zTool.customControls.other.ZProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            app:loadingColor="#40c4ff"
+            app:radius="20dp"
+            app:stopColor="#ff9800"
+            app:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/margin_18"/>
+
+    </LinearLayout>
+
+</LinearLayout>

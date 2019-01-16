@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zlsk.zTool">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <application>
+        <!-- baidu key -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="YG9Zet6jODqXPRsc0eHm1WGFSKmRuL6S" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity android:name="com.zlsk.zTool.customControls.base.SingleSelectActivity" />
+        <activity android:name="com.zlsk.zTool.customControls.base.SingleSelectInputActivity" />
+        <activity android:name="com.zlsk.zTool.baseActivity.photo.AlbumSelectActivity" />
+        <activity android:name="com.zlsk.zTool.baseActivity.photo.VideoAlbumSelectActivity" />
+        <activity android:name="com.zlsk.zTool.baseActivity.photo.ImageGridActivity" />
+        <activity android:name="com.zlsk.zTool.baseActivity.photo.PlayVideoActivity" />
+        <activity android:name="com.zlsk.zTool.baseActivity.BitmapCacheActivity" />
+        <activity android:name="com.zlsk.zTool.baseActivity.FileChooserActivity" />
+        <activity android:name="com.zlsk.zTool.baseActivity.photo.PhotoFullScreenActivity" />
+        <activity android:name="com.zlsk.zTool.chart.BarAndLineChartActivity" />
+        <activity android:name=".customControls.camera.scanner.CodeScannerActivity" />
+    </application>
+</manifest>

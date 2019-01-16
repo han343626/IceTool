@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/card_view_item_common_style" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50"
+            android:background="@color/group_bkcolor">
+
+            <LinearLayout
+                android:id="@+id/ll_item_titles"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_50"
+                android:background="@drawable/shape_textview_background"
+                android:orientation="horizontal"
+                android:paddingStart="10dip"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_item_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/star_required_mark"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/title_font_size_2" />
+
+                <TextView
+                    android:id="@+id/tv_item_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:textColor="@color/txt_label"
+                    android:textSize="@dimen/title_font_size_2"
+                    tools:ignore="RtlHardcoded"
+                    android:text="位置性情"/>
+
+                <ImageView
+                    android:id="@+id/tv_getCurrentLocationInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/current_loc"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            layout="@layout/item_splitline_h" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/default_input_edit_new"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingStart="15dip"
+            android:paddingEnd="10dip" >
+
+            <EditText
+                android:id="@+id/et_address_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape_textview_background"
+                android:ellipsize="end"
+                android:enabled="false"
+                android:hint="@string/event_report_hint_address"
+                android:textColorHint="@color/txt_hint"
+                android:minHeight="60dp"
+                android:textColor="@color/txt_black_normal"
+                android:textSize="@dimen/font_18" >
+            </EditText>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

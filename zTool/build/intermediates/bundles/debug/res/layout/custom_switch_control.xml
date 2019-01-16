@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dbdbdb">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+
+        <TextView
+            android:background="@drawable/bg_sheet_left_button_true"
+            android:text="开工申请"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv_type_000"/>
+
+        <TextView
+            android:background="@drawable/bg_sheet_middle_button_false"
+            android:text="发起会审"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv_type_001"/>
+
+        <TextView
+            android:background="@drawable/bg_sheet_middle_button_false"
+            android:text="会审上报"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv_type_002"/>
+
+        <TextView
+            android:background="@drawable/bg_sheet_right_button_false"
+            android:text="会审确认"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv_type_003"/>
+
+    </LinearLayout>
+
+</LinearLayout>

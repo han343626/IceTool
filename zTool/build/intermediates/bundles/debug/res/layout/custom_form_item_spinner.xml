@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+         >
+
+        <include
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            layout="@layout/custom_form_item_title_new" />
+        <RelativeLayout
+            android:id="@+id/rl_spn_container"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/margin_50"
+            android:layout_weight="3" >
+
+            <Spinner
+                android:id="@+id/spn_value"
+                style="@android:style/Widget.Holo.Light"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_50"
+                android:gravity="center_vertical"
+                android:paddingEnd="0dip"
+               android:background="@drawable/shape_textview_background"
+                android:paddingLeft="0dip"
+                android:paddingRight="0dip"
+                android:spinnerMode="dialog"
+                android:textColor="@color/txt_black_normal"
+                android:textSize="@dimen/font_18" />
+            <EditText
+                android:id="@+id/et_spn_value"
+                style="@android:style/Widget.Holo.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_textview_background"
+                android:gravity="center_vertical"
+                android:spinnerMode="dialog"
+                android:hint="@string/str_clickinput"
+                android:textColorHint="@color/txt_hint"
+                android:textColor="@color/txt_black_normal"
+                android:textSize="@dimen/font_18"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_spn_value"
+                android:layout_width="28dp"
+                android:scaleType="centerInside"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_arrow"
+                android:contentDescription="@null" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        layout="@layout/item_splitline_h" />
+
+</LinearLayout>

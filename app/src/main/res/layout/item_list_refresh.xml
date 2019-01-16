@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zlsk.zTool.customControls.swipe.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/SwipeMenuLayout"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:id="@+id/layout_container">
+
+            <ImageView
+                android:id="@+id/msg_image"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="6dp"
+                android:src="@drawable/icon_drawable_point" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/msg_title"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center_vertical"
+                        android:text="质量管理"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/font_14" />
+
+                    <TextView
+                        android:id="@+id/msg_time"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="13:59:21"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:id="@+id/msg_content"
+                        android:layout_height="match_parent"
+                        android:text="有一条质量管理待处理"
+                        android:textColor="#7F000000"
+                        android:textSize="@dimen/font_12"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/msg_read_state"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="•"
+                        android:textColor="@color/red"
+                        android:textSize="32sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginStart="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#696969">
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/red"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_read"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="标记已读"
+            android:textSize="14sp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</com.zlsk.zTool.customControls.swipe.SwipeMenuLayout>

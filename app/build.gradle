@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        applicationId rootProject.ext.pkgName
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        releaseOrdebug {
+            keyAlias 'android-app'
+            keyPassword 'zlsk52019'
+            storeFile file('E:\\IceWang\\apk_key/key.jks')
+            storePassword 'zlsk52019'
+        }
+    }
+
+    buildTypes {
+        release {
+            manifestPlaceholders = [app_name: "Ice"]
+            signingConfig signingConfigs.releaseOrdebug
+            debuggable true
+            minifyEnabled false
+            buildConfigField("String", "MODULE_NAME", "\"ice\"")
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug.initWith(release)
+        debug {
+        }
+    }
+
+    buildTypes.all { type ->
+        type.matchingFallbacks = ['release']
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def date = new Date()
+            def formattedDate = date.format('yy-MM-dd')
+            outputFileName = rootProject.ext.moduleName + "-" + buildType.name + "-v" +
+                    defaultConfig.versionName + "-" + formattedDate + ".apk"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    compile project(path: ':zTool')
+}
