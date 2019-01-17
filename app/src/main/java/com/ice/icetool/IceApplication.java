@@ -11,6 +11,6 @@ public class IceApplication extends CommonApplication{
     @Override
     public void onCreate() {
         super.onCreate();
-        CommonToolUtil.getInstance().init(getApplicationContext(),getPackageName());
+        CommonToolUtil.getInstance().init(getApplicationContext(),getPackageName(),null);
     }
 }

@@ -7,18 +7,41 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:minHeight="120dp"
+        android:gravity="center_horizontal"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp">
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
 
         <com.zlsk.zTool.customControls.textview.CenterTextView
+            android:layout_marginTop="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_msg"
-            android:text="是否删除改选择项"
+            android:text="jinhua 1.4"
             android:textSize="@dimen/font_18"
             android:textColor="#696969"/>
+
+        <View
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#707070">
+        </View>
+
+       <ListView
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginBottom="10dp"
+           android:id="@+id/listView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:divider="@null"
+           android:scrollbars="none">
+       </ListView>
 
     </LinearLayout>
 
@@ -44,7 +67,7 @@
                 android:background="@color/transparent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="确 定"
+                android:text="更 新"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#1296db"/>
@@ -68,7 +91,7 @@
                 android:background="@color/transparent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="取 消"
+                android:text="暂不更新"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#d81e06"/>

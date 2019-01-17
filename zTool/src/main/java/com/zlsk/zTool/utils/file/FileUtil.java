@@ -2,6 +2,7 @@ package com.zlsk.zTool.utils.file;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.media.MediaScannerConnection;
 import android.os.Environment;
 
 import com.zlsk.zTool.utils.system.BuildConfigUtil;
@@ -455,5 +456,13 @@ public class FileUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * MediaScanner扫描,让其包含到相册中
+     */
+    public void refreshImageFolders(String photoPath) {
+        new Thread(() -> MediaScannerConnection.scanFile(context, new String[]{photoPath}, null, (path, uri) -> {
+        })).start();
     }
 }

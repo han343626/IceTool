@@ -22,6 +22,7 @@
         <activity android:name=".item.RefreshListActivity" />
         <activity android:name=".item.NoteActivity" />
         <activity android:name=".item.SwitchAndShop" />
+        <activity android:name=".item.CodeCreateActivity" />
     </application>
 
 </manifest>

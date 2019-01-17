@@ -6,6 +6,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Typeface;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.media.ExifInterface;
 import android.media.MediaMetadataRetriever;
 import android.os.Handler;
@@ -30,6 +32,11 @@ import java.util.HashMap;
 public class BitmapUtil {
     private static final float PHOTO_DEFAULT_MAX_WIDTH_AND_HEIGHT = 1280;
 
+
+    public static Bitmap transDrawableToBitmap(Drawable drawable){
+        BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
+        return bitmapDrawable.getBitmap();
+    }
 
     /**
      * Resize the bitmap
@@ -71,15 +78,15 @@ public class BitmapUtil {
      * 保存Bitmap图片在SD卡中
      * 如果没有SD卡则存在手机中
      *
-     * @param mbitmap 需要保存的Bitmap图片
+     * @param bitmap 需要保存的Bitmap图片
      * @return 保存成功时返回图片的路径，失败时返回null
      */
-    public static String savePhotoToSD(String filePath,Bitmap mbitmap) {
+    public static String savePhotoToSD(String filePath,Bitmap bitmap) {
         FileOutputStream outStream = null;
         try {
             outStream = new FileOutputStream(filePath);
             // 把数据写入文件，100表示不压缩
-            mbitmap.compress(Bitmap.CompressFormat.PNG, 100, outStream);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, outStream);
             return filePath;
         } catch (Exception e) {
             e.printStackTrace();
@@ -90,8 +97,8 @@ public class BitmapUtil {
                     // 记得要关闭流！
                     outStream.close();
                 }
-                if (mbitmap != null) {
-                    mbitmap.recycle();
+                if (bitmap != null) {
+                    bitmap.recycle();
                 }
             } catch (Exception e) {
                 e.printStackTrace();

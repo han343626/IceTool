@@ -31,7 +31,7 @@ public class CommonToolUtil {
      * @param context 全局ApplicationContext
      * @param mainPackage 主程序包名,用以反射
      */
-    public void init(Context context,String mainPackage){
+    public void init(Context context,String mainPackage,String baseUrl){
         this.context = context;
         this.mainPackage = mainPackage;
         ZToast.getInstance(context);
@@ -40,6 +40,7 @@ public class CommonToolUtil {
         CrashHandler.getInstance().init(context);
         SDKInitializer.initialize(context);
         ((Application)context).registerActivityLifecycleCallbacks(ActivityHelper.getInstance());
+        ServiceUtil.getInstance().init(baseUrl);
     }
 
     public void initBaiduMap(){

@@ -2,6 +2,9 @@ menu:
   - name: 自定义控件
     description: 使用方便,无需编写XML资源文件,无限复用
     activity: com.ice.icetool.item.ControlActivity
+  - name: 二维码/条形码生成
+    description: 二维码/条形码生成
+    activity: com.ice.icetool.item.CodeCreateActivity
   - name: 二维码/条形码扫描
     description: 相机/相册二维码及条形码识别,支持开关灯,放大缩小
     activity: com.zlsk.zTool.customControls.camera.scanner.CodeScannerActivity

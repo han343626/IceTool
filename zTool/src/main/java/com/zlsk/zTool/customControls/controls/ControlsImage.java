@@ -7,7 +7,6 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.MediaScannerConnection;
-import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.content.ContextCompat;
@@ -191,18 +190,15 @@ public class ControlsImage extends ABaseControlItemView {
      */
     private void takePhotoThread(){
         LoadingDialog.getInstance().show("图片处理中");
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                refreshImageFolders();
-                String path = currentPhotoPath + "/" + currentPhotoName;
-                BitmapUtil.amendRotatePhoto(path);
-                if (getInspectItem().isAddWaterMark()){
-                    addWatermark(path);
-                }else {
-                    tempPhotoList.add(path);
-                    sendMessageToGridView();
-                }
+        new Thread(() -> {
+            refreshImageFolders();
+            String path = currentPhotoPath + "/" + currentPhotoName;
+            BitmapUtil.amendRotatePhoto(path);
+            if (getInspectItem().isAddWaterMark()){
+                addWatermark(path);
+            }else {
+                tempPhotoList.add(path);
+                sendMessageToGridView();
             }
         }).start();
     }
@@ -296,14 +292,7 @@ public class ControlsImage extends ABaseControlItemView {
      * MediaScanner扫描,让其包含到相册中
      */
     private void refreshImageFolders() {
-        new Thread(new Runnable() {
-            public void run() {
-                MediaScannerConnection.scanFile(context, new String[]{currentPhotoPath}, null, new MediaScannerConnection.OnScanCompletedListener() {
-                    @Override
-                    public void onScanCompleted(String path, Uri uri) {
-                    }
-                });
-            }
-        }).start();
+        new Thread(() -> MediaScannerConnection.scanFile(context, new String[]{currentPhotoPath}, null, (path, uri) -> {
+        })).start();
     }
 }
