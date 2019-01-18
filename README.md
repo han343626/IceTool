@@ -4,6 +4,9 @@ lib
 # 自定义控件
 ![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/自定义控件.gif)
 
+# 条形码二维码生成
+![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/二维码条形码生成.gif)
+
 # 条形码二维码扫描
 ![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/条形码二维码扫描.gif)
 
