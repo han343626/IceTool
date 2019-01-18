@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     style="@style/card_view_item_common_style">
 
@@ -11,16 +11,14 @@
         android:orientation="vertical">
 
         <include
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin_10"
-            layout="@layout/custom_form_item_title"
-            android:background="@drawable/shape_default_input_normal" />
+            layout="@layout/custom_form_item_title_new" />
 
         <include
-            android:layout_width="match_parent"
-            android:layout_height="0.5dip"
-            layout="@layout/item_splitline_bold" />
+            layout="@layout/item_divider_bold" />
 
         <EditText
             android:id="@+id/et_item_value"
@@ -30,14 +28,13 @@
             android:gravity="start"
             android:hint="点击输入"
             android:inputType="textMultiLine"
-            android:minHeight="@dimen/margin_80"
+            android:minHeight="@dimen/margin_60"
             android:paddingBottom="10dip"
             android:paddingLeft="15dip"
             android:paddingRight="10dip"
             android:paddingTop="10dip"
             android:textColor="@color/txt_black_normal"
             android:textColorHint="@color/txt_hint"
-            android:maxLength="500"
             android:textSize="@dimen/font_16"
             android:textCursorDrawable="@null"/>
 

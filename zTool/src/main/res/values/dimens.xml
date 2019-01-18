@@ -177,4 +177,6 @@
 
     <dimen name="custom_mapview_image_size">25dp</dimen>
     <dimen name="custom_mapview_operate">35dp</dimen>
+
+    <dimen name="custom_control_height">40dp</dimen>
 </resources>

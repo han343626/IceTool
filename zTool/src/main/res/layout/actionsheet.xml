@@ -20,9 +20,7 @@
             android:textSize="18sp" />
 
         <include
-            android:layout_width="match_parent"
-            android:layout_height="0.5dip"
-            layout="@layout/item_splitline_h" />
+            layout="@layout/item_divider_bold" />
 
         <ListView
             android:id="@+id/sheetList"
