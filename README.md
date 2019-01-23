@@ -12,6 +12,7 @@ lib
 
 # 百度地图
 ![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/百度地图.gif)
+![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/百度地图_应用.gif)
 
 # listview分页  
 支持上拉加载，下拉刷新 侧滑(按钮)  
