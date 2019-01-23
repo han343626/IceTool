@@ -71,12 +71,7 @@ public class ControlsVideo extends ABaseControlItemView{
         gridView = contentView.findViewById(R.id.gv_video);
         gridView.setAdapter(videoGridViewAdapter);
         gridView.setVisibility(View.VISIBLE);
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                onGridViewItemClick(position);
-            }
-        });
+        gridView.setOnItemClickListener((parent, view, position, id) -> onGridViewItemClick(position));
 
         if (mControlsItem.getValue() != null && !mControlsItem.getValue().isEmpty()) {
             String[] videoStrings = mControlsItem.getValue().split(Constant.IMAGE_SPLIT_STRING);

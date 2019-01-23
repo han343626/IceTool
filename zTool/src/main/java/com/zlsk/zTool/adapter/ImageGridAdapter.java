@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 
 import com.zlsk.zTool.R;
 import com.zlsk.zTool.baseActivity.BitmapCacheActivity;
+import com.zlsk.zTool.baseActivity.photo.PlayVideoActivity;
 import com.zlsk.zTool.baseActivity.photo.SinglePhotoFullScreenActivity;
 import com.zlsk.zTool.customControls.other.AvoidDoubleClickListener;
 import com.zlsk.zTool.model.photo.ImageItem;
@@ -36,6 +37,8 @@ public class ImageGridAdapter extends BaseAdapter {
     private BitmapCacheActivity cache;
     private Handler mHandler;
     private int selectTotal = 0;
+    private boolean isVideo = false;
+
     private BitmapCacheActivity.ImageCallback callback = (imageView, bitmap, params) -> {
         if (imageView != null && bitmap != null) {
             String url = (String) params[0];
@@ -51,6 +54,10 @@ public class ImageGridAdapter extends BaseAdapter {
 
     public interface TextCallback {
         void onListen(int count);
+    }
+
+    public void setVideo(boolean video) {
+        isVideo = video;
     }
 
     public void setTextCallback(TextCallback listener) {
@@ -155,9 +162,16 @@ public class ImageGridAdapter extends BaseAdapter {
         convertView.setOnClickListener(new AvoidDoubleClickListener() {
             @Override
             public void OnClick(View view) {
-                Intent intent = new Intent(act, SinglePhotoFullScreenActivity.class);
-                intent.putExtra(SinglePhotoFullScreenActivity.INTENT_FIELD_IMAGE_PATH,item.imagePath);
-                act.startActivity(intent);
+                if(!isVideo){
+                    Intent intent = new Intent(act, SinglePhotoFullScreenActivity.class);
+                    intent.putExtra(SinglePhotoFullScreenActivity.INTENT_FIELD_IMAGE_PATH,item.imagePath);
+                    act.startActivity(intent);
+                }else {
+                    Intent intent = new Intent(act, PlayVideoActivity.class);
+                    intent.putExtra(PlayVideoActivity.INTENT_KEY_VIDEO_PATH, item.imagePath);
+                    intent.putExtra(PlayVideoActivity.INTENT_KEY_CAN_DELETE, false);
+                    act.startActivity(intent);
+                }
             }
         });
 

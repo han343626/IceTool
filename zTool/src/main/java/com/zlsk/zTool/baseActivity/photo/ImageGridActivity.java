@@ -109,6 +109,7 @@ public class ImageGridActivity extends ATitleBaseActivity {
 		gridView = findViewById(R.id.gridview);
 		gridView.setSelector(new ColorDrawable(Color.TRANSPARENT));
 		adapter = new ImageGridAdapter(ImageGridActivity.this, dataList, mHandler);
+		adapter.setVideo(isVideoSelect);
 		adapter.setLimitCount(MAX_SELECT_PHOTO_COUNT);
 		gridView.setAdapter(adapter);
 		adapter.setTextCallback(count -> setActionName("完成" + "(" + count + "/" + MAX_SELECT_PHOTO_COUNT + ")"));
