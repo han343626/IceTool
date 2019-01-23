@@ -12,6 +12,7 @@ lib
 
 # 百度地图
 ![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/百度地图.gif)  
+百度地图控件应用(标注点添加/动态绘制当前屏幕范围内的标注点(不在范围内删除))
 ![Image text](https://raw.githubusercontent.com/han343626/img_fold/master/百度地图_应用.gif)
 
 # listview分页  
