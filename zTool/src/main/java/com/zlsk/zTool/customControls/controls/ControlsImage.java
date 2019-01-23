@@ -11,7 +11,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
-import android.widget.AdapterView;
 
 import com.zlsk.zTool.R;
 import com.zlsk.zTool.adapter.PhotoGridViewAdapter;
@@ -86,8 +85,7 @@ public class ControlsImage extends ABaseControlItemView {
         mImageAdapter.setNeedAddPic(mControlsItem.isEdit());
         mImageAdapter.setLimitCount(mControlsItem.getImageLimitCount());
 
-        gridViewImage = contentView.findViewById(R.id.gridviewImage);
-        gridViewImage.setVisibility(View.VISIBLE);
+        gridViewImage = contentView.findViewById(R.id.gv_image);
         gridViewImage.setOnItemClickListener((parent, view, position, id) -> onImageItemClick(position));
 
         gridViewImage.setAdapter(mImageAdapter);
@@ -107,21 +105,18 @@ public class ControlsImage extends ABaseControlItemView {
                 return;
             }
             String[] menus = new String[]{"拍照","从相册中选择"};
-            ActionSheetDialog.show(context, "请选择", menus, new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    switch (position) {
-                        case 0:
-                            takePhoto();
-                            ActionSheetDialog.dismiss();
-                            break;
-                        case 1:
-                            selectPicture();
-                            ActionSheetDialog.dismiss();
-                            break;
-                        default:
-                            break;
-                    }
+            ActionSheetDialog.show(context, "请选择", menus, (parent, view, position1, id) -> {
+                switch (position1) {
+                    case 0:
+                        takePhoto();
+                        ActionSheetDialog.dismiss();
+                        break;
+                    case 1:
+                        selectPicture();
+                        ActionSheetDialog.dismiss();
+                        break;
+                    default:
+                        break;
                 }
             });
         } else {

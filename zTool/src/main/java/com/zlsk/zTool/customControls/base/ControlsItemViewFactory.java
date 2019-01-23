@@ -23,7 +23,6 @@ public class ControlsItemViewFactory {
         controlsMap.put(ControlsItemType.IMAGE, ControlsImage.class);
         controlsMap.put(ControlsItemType.TEXT, ControlsText.class);
         controlsMap.put(ControlsItemType.TEXT_NUM, ControlsText.class);
-        controlsMap.put(ControlsItemType.LONGTEXT, ControlsText.class);
         controlsMap.put(ControlsItemType.LOCATION, ControlsLocation.class);
         controlsMap.put(ControlsItemType.DATE, ControlsDate.class);
         controlsMap.put(ControlsItemType.SINGLE_SELECT, ControlsSingleSelect.class);

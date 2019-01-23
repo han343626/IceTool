@@ -9,6 +9,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
 import com.zlsk.zTool.R;
+import com.zlsk.zTool.utils.other.TransPixelUtil;
+import com.zlsk.zTool.utils.system.DeviceUtil;
 
 import org.xutils.image.ImageOptions;
 import org.xutils.x;
@@ -26,21 +28,22 @@ public class PhotoGridViewAdapter extends BaseAdapter {
     private List<String> dataList = new ArrayList<>();
     private boolean isNeedAddPic = true;
     private ImageOptions options;
-
+    private int picSize;
     private int limitCount;
-
-    public int getLimitCount() {
-        return limitCount;
-    }
-
-    public void setLimitCount(int limitCount) {
-        this.limitCount = limitCount;
-    }
 
     public PhotoGridViewAdapter(Context context) {
         this.context = context;
         this.inflater = LayoutInflater.from(context);
         options = new ImageOptions.Builder().setLoadingDrawableId(R.drawable.icon_loading).setFailureDrawableId(R.drawable.icon_error_loading).build();
+        //计算照片每个ITEM多大 横向间距10dp
+        int screenWidth = DeviceUtil.getScreenWidth(context);
+        int margin = TransPixelUtil.dip2px(context,40) * 2;
+        int horizontalSpace = TransPixelUtil.dip2px(context,10) * 2;
+        picSize = (screenWidth - margin - horizontalSpace) / 3;
+    }
+
+    public void setLimitCount(int limitCount) {
+        this.limitCount = limitCount;
     }
 
     /**
@@ -57,6 +60,9 @@ public class PhotoGridViewAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
+        if(dataList.size() == limitCount){
+            return dataList.size();
+        }
         return (dataList == null ? 1: dataList.size() + 1);
     }
 
@@ -80,6 +86,11 @@ public class PhotoGridViewAdapter extends BaseAdapter {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
+
+        ViewGroup.LayoutParams params = holder.imageView.getLayoutParams();
+        params.width = picSize;
+        params.height = picSize;
+        holder.imageView.setLayoutParams(params);
 
         if (position == dataList.size()) {
             holder.imageView.setImageBitmap(BitmapFactory.decodeResource(context.getResources(), R.drawable.addphoto));

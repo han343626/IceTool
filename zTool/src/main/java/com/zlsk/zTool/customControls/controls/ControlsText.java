@@ -3,7 +3,6 @@ package com.zlsk.zTool.customControls.controls;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.InputType;
-import android.text.Spanned;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
@@ -20,8 +19,7 @@ public class ControlsText extends ABaseControlItemView {
 
     @Override
     protected int getContentView() {
-        boolean isTextNormal = mControlsItem.getType().equals(ControlsItemType.TEXT) || mControlsItem.getType().equals(ControlsItemType.TEXT_NUM);
-        return isTextNormal ? R.layout.custom_form_item_text : R.layout.custom_form_item_text_long;
+        return R.layout.custom_form_item_text;
     }
 
     @Override
@@ -48,18 +46,15 @@ public class ControlsText extends ABaseControlItemView {
                 etValue.setInputType(InputType.TYPE_CLASS_NUMBER);
             }else if(type == ControlsItemUtil.InspectTextInputType.type_float){
                 etValue.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
-                etValue.setFilters(new InputFilter[]{new InputFilter() {
-                    @Override
-                    public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
-                        String lastInputContent = dest.toString();
-                        if (lastInputContent.contains(".")) {
-                            int index = lastInputContent.indexOf(".");
-                            if(dend - index >= decimalCount + 1){
-                                return "";
-                            }
+                etValue.setFilters(new InputFilter[]{(source, start, end, dest, dstart, dend) -> {
+                    String lastInputContent = dest.toString();
+                    if (lastInputContent.contains(".")) {
+                        int index = lastInputContent.indexOf(".");
+                        if(dend - index >= decimalCount + 1){
+                            return "";
                         }
-                        return null;
                     }
+                    return null;
                 }});
             }
         }
@@ -85,16 +80,8 @@ public class ControlsText extends ABaseControlItemView {
 
             @Override
             public void afterTextChanged(Editable s) {
-                if (s.toString().length() > 50) {
-                    String substring = s.toString().substring(0, 50);
-
-                    etValue.setSelection(substring.length());
-                    etValue.setText(substring);
-                    mControlsItem.setValue(substring);
-                } else {
-                    etValue.setSelection(s.length());
-                    mControlsItem.setValue(s.toString());
-                }
+                etValue.setSelection(s.length());
+                mControlsItem.setValue(s.toString());
             }
         });
 

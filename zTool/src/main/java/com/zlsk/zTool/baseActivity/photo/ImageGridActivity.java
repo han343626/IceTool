@@ -4,10 +4,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Handler;
-import android.os.Message;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
 import com.zlsk.zTool.R;
@@ -34,20 +31,17 @@ public class ImageGridActivity extends ATitleBaseActivity {
 	private boolean isVideoSelect = false;
     private static IBtnConfirmOnClickCallback mIBtnConfirmOnClickCallback;
 
-	Handler mHandler = new Handler(new Handler.Callback() {
-		@Override
-		public boolean handleMessage(Message msg) {
-			switch (msg.what) {
-				case 0:
-					ZToast.getInstance().show("最多选择" + MAX_SELECT_PHOTO_COUNT + (isVideoSelect ? "个视频" : "张图片"));
-					break;
+	Handler mHandler = new Handler(msg -> {
+        switch (msg.what) {
+            case 0:
+                ZToast.getInstance().show("最多选择" + MAX_SELECT_PHOTO_COUNT + (isVideoSelect ? "个视频" : "张图片"));
+                break;
 
-				default:
-					break;
-			}
-			return true;
-		}
-	});
+            default:
+                break;
+        }
+        return true;
+    });
 
 	@Override
 	public int getContentViewId() {
@@ -114,25 +108,12 @@ public class ImageGridActivity extends ATitleBaseActivity {
 		super.initUi();
 		gridView = findViewById(R.id.gridview);
 		gridView.setSelector(new ColorDrawable(Color.TRANSPARENT));
-		adapter = new ImageGridAdapter(ImageGridActivity.this, dataList,
-				mHandler);
+		adapter = new ImageGridAdapter(ImageGridActivity.this, dataList, mHandler);
 		adapter.setLimitCount(MAX_SELECT_PHOTO_COUNT);
 		gridView.setAdapter(adapter);
-		adapter.setTextCallback(new ImageGridAdapter.TextCallback() {
-			public void onListen(int count) {
-				setActionName("完成" + "(" + count + "/" + MAX_SELECT_PHOTO_COUNT + ")");
-			}
-		});
+		adapter.setTextCallback(count -> setActionName("完成" + "(" + count + "/" + MAX_SELECT_PHOTO_COUNT + ")"));
 
-		gridView.setOnItemClickListener(new OnItemClickListener() {
-
-			@Override
-			public void onItemClick(AdapterView<?> parent, View view,
-									int position, long id) {
-				adapter.notifyDataSetChanged();
-			}
-
-		});
+		gridView.setOnItemClickListener((parent, view, position, id) -> adapter.notifyDataSetChanged());
 
 		int selectedImageCount = isVideoSelect ? MediaCacheManager.videoAddress.size() : MediaCacheManager.imageAddress.size();
 		if (selectedImageCount != 0) {

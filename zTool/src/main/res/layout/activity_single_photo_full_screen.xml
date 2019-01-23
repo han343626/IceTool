@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333">
+
+    <include
+        android:id="@+id/m_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_title_height"
+        layout="@layout/layout_title"/>
+
+   <com.zlsk.zTool.customControls.scaleImage.ZScaleImageView
+       android:id="@+id/zScaleImage"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+</LinearLayout>

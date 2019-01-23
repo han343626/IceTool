@@ -36,5 +36,6 @@
         <activity android:name="com.zlsk.zTool.baseActivity.photo.PhotoFullScreenActivity" />
         <activity android:name="com.zlsk.zTool.chart.BarAndLineChartActivity" />
         <activity android:name=".customControls.camera.scanner.CodeScannerActivity" />
+        <activity android:name=".baseActivity.photo.SinglePhotoFullScreenActivity" />
     </application>
 </manifest>

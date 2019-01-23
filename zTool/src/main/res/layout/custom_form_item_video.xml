@@ -10,54 +10,28 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/ll_item_title"
+        <include
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@color/transparent"
-            android:orientation="horizontal"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:gravity="center_vertical">
-
-            <TextView
-                android:id="@+id/tv_item_star"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="start|center_vertical"
-                android:text="*"
-                android:textColor="#FF0000"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/tv_item_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="fill_vertical"
-                android:textColor="#686868"
-                android:textSize="18sp"
-                android:text="照片"/>
-
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            layout="@layout/custom_form_item_title" />
 
         <include
-            layout="@layout/item_divider_bold">
-        </include>
+            layout="@layout/item_divider_bold" />
 
         <com.zlsk.zTool.helper.GridViewForScrollView
             android:id="@+id/gv_video"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dip"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
             android:layout_marginTop="10dip"
-            android:horizontalSpacing="3dp"
+            android:layout_marginStart="@dimen/custom_control_required_parent_width"
+            android:layout_marginEnd="@dimen/custom_control_required_parent_width"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
             android:listSelector="@color/transparent"
-            android:numColumns="4"
+            android:numColumns="3"
             android:scrollbars="none"
-            android:verticalSpacing="5dp"
-            android:visibility="gone" >
+            android:visibility="visible" >
         </com.zlsk.zTool.helper.GridViewForScrollView>
 
     </LinearLayout>

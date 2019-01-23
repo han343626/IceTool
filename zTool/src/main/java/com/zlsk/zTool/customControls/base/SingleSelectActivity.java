@@ -154,18 +154,15 @@ public class SingleSelectActivity extends ARefreshListBaseActivity {
 
             LinearLayout layout_container = holder.findViewById(R.id.layout_container);
             layout_container.setBackgroundColor(Color.parseColor(entity.isSelect() ? "#999999" : "#ffffff"));
-            layout_container.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(isMulSelect){
-                        entity.setSelect(!entity.isSelect());
-                        notifyDataSetChanged();
-                    }else {
-                        Bundle bundle = new Bundle();
-                        bundle.putString(INTENT_FIELD_RESULT, adapter.getDataList().get(position).getName());
-                        setResult(INTENT_RESULT_CODE,new Intent().putExtras(bundle));
-                        finish();
-                    }
+            layout_container.setOnClickListener(v -> {
+                if(isMulSelect){
+                    entity.setSelect(!entity.isSelect());
+                    notifyDataSetChanged();
+                }else {
+                    Bundle bundle = new Bundle();
+                    bundle.putString(INTENT_FIELD_RESULT, adapter.getDataList().get(position).getName());
+                    setResult(INTENT_RESULT_CODE,new Intent().putExtras(bundle));
+                    finish();
                 }
             });
         }

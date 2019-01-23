@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.zlsk.zTool.R;
@@ -42,14 +41,12 @@ public class ControlsSingleSelect extends ABaseControlItemView{
 
         selectValues = mControlsItem.getSingleSelectValues();
         if(selectValues != null && selectValues.size() != 0){
-//            tv_show.setText(selectValues.get(0));
-//            mControlsItem.setValue(selectValues.get(0));
+
         }else if(mControlsItem.getSingleSelectValuesArray() != null){
             selectValues = new ArrayList<>();
             Collections.addAll(selectValues,mControlsItem.getSingleSelectValuesArray());
             if(selectValues != null && selectValues.size() != 0){
-//                tv_show.setText(selectValues.get(0));
-//                mControlsItem.setValue(selectValues.get(0));
+
             }
         }
 
@@ -59,16 +56,12 @@ public class ControlsSingleSelect extends ABaseControlItemView{
             tv_show.setText(mControlsItem.getValue());
         }
 
-        LinearLayout layout_container = contentView.findViewById(R.id.layout_container);
-        layout_container.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(mControlsItem.isEdit() && selectValues != null && selectValues.size() != 0){
-                    Intent intent = new Intent(context, SingleSelectActivity.class);
-                    intent.putExtra(SingleSelectActivity.INTENT_FIELD_IS_MUL_SELECT,isMulSelect);
-                    intent.putStringArrayListExtra(SingleSelectActivity.INTENT_FIELD_DATA, (ArrayList<String>) selectValues);
-                    startActivityForResult(intent,SingleSelectActivity.INTENT_REQUEST_CODE);
-                }
+        contentView.findViewById(R.id.layout_container).setOnClickListener(v -> {
+            if(mControlsItem.isEdit() && selectValues != null && selectValues.size() != 0){
+                Intent intent = new Intent(context, SingleSelectActivity.class);
+                intent.putExtra(SingleSelectActivity.INTENT_FIELD_IS_MUL_SELECT,isMulSelect);
+                intent.putStringArrayListExtra(SingleSelectActivity.INTENT_FIELD_DATA, (ArrayList<String>) selectValues);
+                startActivityForResult(intent,SingleSelectActivity.INTENT_REQUEST_CODE);
             }
         });
 

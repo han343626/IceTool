@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ll_item_title"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/margin_50"
-    android:background="@drawable/shape_default_input_normal"
-    android:orientation="horizontal" >
+    android:minHeight="@dimen/custom_control_height"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
 
-    <TextView
-        android:id="@+id/tv_item_star"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="@dimen/custom_control_required_parent_width"
         android:layout_height="match_parent"
-        android:gravity="start|center_vertical"
-        android:text="*"
-        android:textColor="#FF0000"
-        android:textSize="@dimen/title_font_size_2" />
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_required"
+            android:layout_width="@dimen/custom_control_required_point_size"
+            android:layout_height="@dimen/custom_control_required_point_size"
+            android:src="@drawable/icon_gray_point" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tv_item_title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="fill_vertical"
-        android:singleLine="false"
-        android:text=""
+        android:gravity="center_vertical"
+        android:text="i am title"
         android:textColor="#686868"
-        android:textSize="@dimen/title_font_size_2" />
+        android:textSize="@dimen/custom_control_font_title" />
 
 </LinearLayout>

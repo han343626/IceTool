@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.zlsk.zTool.R;
@@ -38,10 +39,9 @@ public abstract class ABaseControlItemView {
         if (tvTitle != null) {
             tvTitle.setText(item.getAlias());
         }
-
-        TextView tvStar = view.findViewById(R.id.tv_item_star);
-        if (tvStar != null) {
-            tvStar.setVisibility(item.isRequired() ? View.VISIBLE : View.GONE);
+        ImageView img_required = view.findViewById(R.id.img_required);
+        if(img_required != null){
+            img_required.setImageResource(item.isRequired() ? R.drawable.icon_red_point : R.drawable.icon_gray_point);
         }
     }
 

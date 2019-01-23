@@ -4,7 +4,6 @@ public enum ControlsItemType {
     IMAGE("IMG"),
     TEXT("TEXT"),
     TEXT_NUM("TEXT_NUM"),
-    LONGTEXT("LONGTEXT"),
     LOCATION("LOCATION"),
     DATE("DATE"),
     SINGLE_SELECT("SINGLE_SELECT"),

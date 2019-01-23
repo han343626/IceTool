@@ -14,8 +14,6 @@ import com.zlsk.zTool.constant.Constant;
 import com.zlsk.zTool.customControls.scaleImage.ZScaleImageView;
 import com.zlsk.zTool.utils.bitmap.BitmapUtil;
 
-import org.xutils.image.ImageOptions;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -95,7 +93,6 @@ public class PhotoFullScreenActivity extends ATitleBaseActivity {
     @Override
     protected void initData() {
         super.initData();
-        ImageOptions options = new ImageOptions.Builder().setLoadingDrawableId(R.drawable.icon_loading).setFailureDrawableId(R.drawable.icon_error_loading).build();
         imageList = new ArrayList<>();
 
         isEdit = getIntent().getBooleanExtra(Constant.INTENT_FIELD_CAN_EDIT,false);
@@ -105,9 +102,6 @@ public class PhotoFullScreenActivity extends ATitleBaseActivity {
         Collections.addAll(paths,pathStrs);
 
         for (String path : paths){
-//            ImageView imageView = new ImageView(this);
-//            x.image().bind(imageView,path, options);
-//            imageList.add(imageView);
             ZScaleImageView zScaleImageView = new ZScaleImageView(this);
             BitmapUtil.bindScaleImageSource(path,zScaleImageView);
             imageList.add(zScaleImageView);

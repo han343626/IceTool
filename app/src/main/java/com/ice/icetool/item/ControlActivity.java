@@ -58,13 +58,6 @@ public class ControlActivity extends ATitleBaseActivity{
         controlsItem.setDefaultValue("不可编辑");
 
         controlsItem = new ControlsItem();
-        controlsItem.setAlias("多行文字框");
-        controlsItem.setRequired(true);
-        controlsItem.setEdit(true);
-        controlsItem.setType(ControlsItemType.LONGTEXT);
-        controlsItemList.add(controlsItem);
-
-        controlsItem = new ControlsItem();
         controlsItem.setAlias("单项选择");
         controlsItem.setRequired(true);
         controlsItem.setEdit(true);

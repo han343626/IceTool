@@ -178,5 +178,14 @@
     <dimen name="custom_mapview_image_size">25dp</dimen>
     <dimen name="custom_mapview_operate">35dp</dimen>
 
+    <!-- 自定义控件 -->
     <dimen name="custom_control_height">40dp</dimen>
+    <dimen name="custom_control_arrow_size">18dp</dimen>
+    <dimen name="custom_control_locate_width">80dp</dimen>
+    <dimen name="custom_control_locate_height">40dp</dimen>
+    <dimen name="custom_control_title_margin_start">10dp</dimen>
+    <dimen name="custom_control_required_point_size">20dp</dimen>
+    <dimen name="custom_control_required_parent_width">40dp</dimen>
+
+    <dimen name="custom_control_font_title">18sp</dimen>
 </resources>
